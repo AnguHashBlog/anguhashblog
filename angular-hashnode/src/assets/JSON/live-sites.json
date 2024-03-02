@@ -7,7 +7,7 @@
     "dynamicTheme": "yes",
     "structure": "standalone",
     "deployment": ["Netlify" , "Vercel"],
-    "url": "https://angular-v17.hdlshashnode.com/"
+    "url": "https://angular.hashnodeng.com/"
   },
   {
     "imageDark": "../../../assets/images/sites/angular-v17-angumat-dark-hashnode.jpg",
@@ -17,7 +17,7 @@
     "dynamicTheme": "yes",
     "structure": "standalone",
     "deployment": ["Netlify" , "Vercel"],
-    "url": "https://angular-v17-angumat.hdlshashnode.com/"
+    "url": "https://angular-material.hashnodeng.com"
   },
   {
     "imageDark": "../../../assets/images/sites/angular-v17-primeng-dark-hashnode.jpg",
@@ -27,6 +27,6 @@
     "dynamicTheme": "yes",
     "structure": "standalone",
     "deployment": ["Netlify" , "Vercel"],
-    "url": "https://angular-v17-primeng.hdlshashnode.com/"
+    "url": "https://angular-primeng.hashnodeng.com"
   }
 ]
