@@ -1,0 +1,27 @@
+[
+  {
+    "name": "v16 & v17",
+    "linkName": "Angular",
+    "link": "https://angular.dev/"
+  },
+  {
+    "name": "GraphQL Client for Angular",
+    "linkName": "Appolo Angular",
+    "link": "https://the-guild.dev/graphql/apollo-angular/docs"
+  },
+  {
+    "name": "",
+    "linkName": "Font Awesome Icons",
+    "link": "https://fontawesome.com/"
+  },
+  {
+    "name": "",
+    "linkName": "Google Material Symbols and Icons",
+    "link": "https://fonts.google.com/icons"
+  },
+  {
+    "name": "",
+    "linkName": "Google Fonts",
+    "link": "https://fonts.google.com/"
+  }
+]

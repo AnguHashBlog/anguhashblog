@@ -1,0 +1,189 @@
+/* You can add global styles to this file, and also import other style files */
+@use "@angular/material" as mat;
+
+// Light Theme
+$light-theme-primary: mat.define-palette(mat.$indigo-palette);
+$light-theme-accent: mat.define-palette(mat.$purple-palette, A200, A100, A400);
+$light-theme-warn: mat.define-palette(mat.$red-palette);
+
+$light-theme: mat.define-light-theme((color: (primary: $light-theme-primary,
+        accent: $light-theme-accent,
+        warn: $light-theme-warn,
+      ),
+      typography: mat.define-typography-config(),
+    ));
+
+// Dark Theme
+$dark-theme-primary: mat.define-palette(mat.$indigo-palette);
+$dark-theme-accent: mat.define-palette(mat.$purple-palette, A200, A100, A400);
+$dark-theme-warn: mat.define-palette(mat.$red-palette);
+
+$dark-theme: mat.define-dark-theme((color: (primary: $dark-theme-primary,
+        accent: $dark-theme-accent,
+        warn: $dark-theme-warn,
+      ),
+      typography: mat.define-typography-config(),
+    ));
+
+// Accent color
+$accent-1: #c8adcd;
+$accent-2: #9b7ba2;
+$accent-3: #a878b1;
+$accent-4: #7f6a82;
+
+// Dark theme variables
+$dark-bg-color: #222;
+$semi-dark-bg-color: #333;
+$light-text-color: #cacaca;
+
+// Light theme variables
+$lighter-bg-color: #e7e7e7;
+$light-bg-color: #d2d2d2;
+$semi-light-bg-color: #c0c0c0;
+$dark-text-color: #333;
+
+
+
+// Dark mode
+.dark {
+  @include mat.all-component-colors($dark-theme);
+
+  background-color: $semi-dark-bg-color;
+  color: $light-text-color;
+
+  a {
+    color: $accent-1;
+    text-decoration: none;
+  }
+
+  mat-toolbar {
+    color: $light-text-color;;
+
+    mat-icon {
+      color: $accent-1;
+    }
+
+    a {
+      color: $accent-1;
+
+      h1 {
+        color: $accent-1;
+      }
+    }
+  }
+
+  mat-sidenav-container {
+    mat-sidenav {
+      mat-nav-list {
+        a {
+          span {
+            color: $accent-1;
+          }
+
+          &.active {
+            span {
+              color: $accent-3;
+            }
+          }
+        }
+      }
+    }
+    mat-sidenav-content {
+      color: $light-text-color;
+
+      .home {
+        color: $light-text-color;
+
+        h2 {
+          color: $accent-1;
+        }
+
+        a {
+          color: $accent-1;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+
+  mat-card {
+    mat-card-content {
+      .version-wrapper {
+        background: linear-gradient(135deg, #4b434c, #958498, #4b434c,);
+        box-shadow: inset 0 0 0.4rem 0.1rem #3f374091;
+      }
+    }
+  }
+}
+
+// Light mode
+.light {
+  @include mat.all-component-themes($light-theme);
+
+  a {
+    color: $accent-4;
+    text-decoration: none;
+  }
+
+  mat-toolbar {
+    background-color: $light-bg-color;
+    color: $dark-text-color;
+
+    mat-icon {
+      color: $accent-4;
+    }
+
+    a {
+      color: $accent-4;
+
+      h1 {
+        color: $accent-4;
+      }
+    }
+  }
+
+  mat-sidenav-container {
+    mat-sidenav {
+      mat-nav-list {
+        a {
+          span {
+            color: $accent-2;
+          }
+
+          &.active {
+            span {
+              color: $accent-4;
+            }
+          }
+        }
+      }
+    }
+    mat-sidenav-content {
+      color: $dark-text-color;
+
+      .home {
+        color: $dark-text-color;
+
+        h2 {
+          color: $accent-4;
+        }
+
+        a {
+          color: $accent-4;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+
+  mat-card {
+    background-color: $lighter-bg-color;
+
+    mat-card-content {
+      .version-wrapper {
+        background: linear-gradient(135deg, #b0a3b2, #e1cee4, #b0a3b2,);
+        box-shadow: inset 0 0 0.4rem 0.1rem #8378856f;
+      }
+    }
+  }
+}

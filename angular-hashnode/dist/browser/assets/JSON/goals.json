@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Develop a flexible template for Angular integration with headless Hashnode."
+  },
+  {
+    "name": "Connect the Angular app to Hashnode's GraphQL database to retrieve posts and blog data."
+  },
+  {
+    "name": "Support Angular versions 16 and 17 with Angular Material UI."
+  },
+  {
+    "name": "Support Angular versions 16 and 17 with PrimeNG."
+  },
+  {
+    "name": "Responsive layout improvements for different devices."
+  }
+]

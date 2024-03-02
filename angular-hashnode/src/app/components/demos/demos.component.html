@@ -1,0 +1,32 @@
+<div class="demos">
+  <div class="cards-wrapper">
+    @for (site of liveSites; track site) {
+      <a href="{{ site.url }}" target="_blank" rel="noopener noreferrer">
+        <mat-card>
+          <mat-card-header>
+            @if (themeService.themeSignal() === 'dark') {
+              <img src="{{site.imageDark}}" alt="">
+            } @else {
+              <img src="{{site.imageLight}}" alt="">
+            }
+          </mat-card-header>
+
+          <mat-card-content>
+            <div class="version-wrapper">
+              <div class="version">
+                <img src="/assets/images/branding/angular-new.png" alt="">
+                <p>{{site.angularVersion}}</p>
+              </div>
+            </div>
+            <div class="site-info">
+              <h3>UI Library: {{site.uiLib}}</h3>
+              <h3>Dynamic Theme: {{site.dynamicTheme}}</h3>
+              <h3>Structure: {{site.structure}}</h3>
+              <h3>Deployment: {{site.deployment}}</h3>
+            </div>
+          </mat-card-content>
+        </mat-card>
+      </a>
+    }
+  </div>
+</div>

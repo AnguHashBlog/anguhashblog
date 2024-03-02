@@ -1,0 +1,38 @@
+/* You can add global styles to this file, and also import other style files */
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+.description {
+  text-align: center;
+
+  h2 {
+    font-size: 1.7rem;
+    margin: 2rem 0 1.5rem;
+  }
+}
+
+h2 {
+  font-size: 1.7rem;
+  margin: 2rem 0 1.5rem;
+}
+
+p {
+  font-size: 1.1rem;
+  line-height: 1.5rem;
+}
+
+ul {
+  text-align: left;
+  margin-left: 3rem;
+  li {
+    font-size: 1.1rem;
+    line-height: 1.7rem;
+  }
+}

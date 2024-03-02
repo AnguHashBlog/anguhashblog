@@ -1,0 +1,35 @@
+<div class="home">
+  <div class="video-wrapper">
+    @if (themeService.themeSignal() === 'dark') {
+      <video #myVideo src="../../../assets/animation/merge-animation.mp4" autoplay loop muted
+        [volume]="videoVolume"></video>
+    } @else {
+      <video #myVideo src="../../../assets/animation/merge-animation-light.mp4" autoplay loop muted
+        [volume]="videoVolume"></video>
+    }
+  </div>
+  <div class="description">
+    <h2>Overview</h2>
+    <div class="heading">
+      <h3>The HashnodeNG Project</h3>
+      <small>formarly known as <i>Angular Headless Hashnode</i></small>
+    </div>
+    <p>aims to seamlessly connect your Angular application to the Hashnode GraphQL
+      database, providing a template for integrating Angular with a headless Hashnode setup.</p>
+    <p>In other words - this project is very much like the starter kit that Hashnode provides, except that this project
+      uses Angular for the frontend and deployment is set to be done through Netlify.</p>
+    <h2>Project Goals</h2>
+    <ul>
+      @for (goal of goals; track goal) {
+      <li>{{goal.name}}</li>
+      }
+    </ul>
+    <h2>Existing Setup & Features</h2>
+    <ul>
+      @for (feature of features; track feature) {
+      <li><a href="{{feature.link}}" target="_blank" rel="noopener noreferrer">{{feature.linkName}}</a> {{feature.name}}
+      </li>
+      }
+    </ul>
+  </div>
+</div>

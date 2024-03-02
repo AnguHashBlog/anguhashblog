@@ -1,0 +1,43 @@
+<div [class]="themeService.themeSignal()">
+  <div class="container" [class.is-mobile]="mobileQuery.matches">
+    <mat-toolbar>
+      <div class="site-info">
+        <button mat-icon-button (click)="snav.toggle()"><mat-icon>menu</mat-icon></button>
+        <a routerLink="home" class="logo">
+          <img src="../assets/images/branding/angular-headless-hashnode-logo-tr.png" alt="">
+          <div class="site-info">
+            <h1 class="app-name">{{title}}</h1>
+            <small>formerly Angular Headless Hashnode</small>
+          </div>
+        </a>
+      </div>
+      <div class="theme-control">
+        <mat-slide-toggle checked (click)="toggleTheme()"></mat-slide-toggle>
+        @if (themeService.themeSignal() === 'dark') {
+        <mat-icon>dark_mode</mat-icon>
+        } @else {
+        <mat-icon>light_mode</mat-icon>
+        }
+      </div>
+    </mat-toolbar>
+
+    <mat-sidenav-container [style.marginTop.px]="mobileQuery.matches ? 56 : 0">
+      <mat-sidenav #snav [mode]="mobileQuery.matches ? 'over' : 'side'" [fixedInViewport]="mobileQuery.matches"
+        [opened]="snavIsOpen" fixedTopGap="56">
+        <mat-nav-list>
+          @for (nav of navItems; track nav) {
+          <a mat-list-item routerLink="{{nav.route}}" routerLinkActive="active">
+            <span><mat-icon>{{nav.icon}}</mat-icon>
+              {{nav.name }}</span>
+          </a>
+          }
+        </mat-nav-list>
+      </mat-sidenav>
+
+      <mat-sidenav-content>
+        <router-outlet></router-outlet>
+      </mat-sidenav-content>
+    </mat-sidenav-container>
+    <app-footer></app-footer>
+  </div>
+</div>
