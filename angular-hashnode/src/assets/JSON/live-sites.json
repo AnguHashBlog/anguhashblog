@@ -17,7 +17,7 @@
     "dynamicTheme": "yes",
     "structure": "standalone",
     "deployment": ["Netlify" , "Vercel"],
-    "url": "https://angular-material.hashnodeng.com"
+    "url": "https://angularmaterial.hashnodeng.com"
   },
   {
     "imageDark": "../../../assets/images/sites/angular-v17-primeng-dark-hashnode.jpg",
