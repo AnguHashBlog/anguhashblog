@@ -11,7 +11,7 @@ import { MatToolbarModule } from "@angular/material/toolbar";
 })
 export class FooterComponent {
   date = new Date().getFullYear();
-  siteName = "HashnodeNG";
+  siteName = "AnguHashBlog";
   estee = "Esther White {{ MonaCodeLisa }}";
 
 }

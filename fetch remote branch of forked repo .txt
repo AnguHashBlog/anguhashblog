@@ -1,12 +1,12 @@
 fetch remote branch of forked repo 
 
 # Fetch changes from the forked repository's display-blog-posts branch
-git fetch https://github.com/yshashi/Angular-Headless-Hashnode.git display-blog-posts
+git fetch https://github.com/yshashi/anguhashblog.git display-blog-posts
 
 # Create a local branch tracking the fetched branch
 git checkout -b display-blog-posts FETCH_HEAD
 
 
-git fetch https://github.com/jhonacs2/Angular-Headless-Hashnode.git refactor/refactor-blog
+git fetch https://github.com/jhonacs2/anguhashblog.git refactor/refactor-blog
 
 git checkout -b refactor/refactor-blog FETCH_HEAD

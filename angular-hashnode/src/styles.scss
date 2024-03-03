@@ -9,18 +9,17 @@ body {
   margin: 0;
 }
 
-.description {
+.content {
   text-align: center;
 
   h2 {
     font-size: 1.7rem;
     margin: 2rem 0 1.5rem;
   }
-}
 
-h2 {
-  font-size: 1.7rem;
-  margin: 2rem 0 1.5rem;
+  h3 {
+    font-size: 1.4rem;
+  }
 }
 
 p {
@@ -31,6 +30,7 @@ p {
 ul {
   text-align: left;
   margin-left: 3rem;
+
   li {
     font-size: 1.1rem;
     line-height: 1.7rem;

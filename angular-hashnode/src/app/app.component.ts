@@ -33,7 +33,7 @@ import { ThemeService } from "./services/theme.service";
 	styleUrl: "./app.component.scss",
 })
 export class AppComponent implements OnInit, OnDestroy {
-	title = "HashnodeNG";
+	title = "AnguHashBlog";
 	snavIsOpen = true;
 	mobileQuery: MediaQueryList;
   themeService: ThemeService = inject(ThemeService);

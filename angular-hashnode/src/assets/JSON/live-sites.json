@@ -1,32 +1,32 @@
 [
   {
-    "imageDark": "../../../assets/images/sites/angular-v17-dark-hashnode.jpg",
-    "imageLight": "../../../assets/images/sites/angular-v17-light-hashnode.jpg",
+    "imageDark": "../../../assets/images/sites/angular-dark-anguhashblog.jpg",
+    "imageLight": "../../../assets/images/sites/angular-light-anguhashblog.jpg",
     "angularVersion": "v17",
     "uiLib": "none",
     "dynamicTheme": "yes",
     "structure": "standalone",
     "deployment": ["Netlify" , "Vercel"],
-    "url": "https://angular.hashnodeng.com/"
+    "url": "https://angular.anguhashblog.com/"
   },
   {
-    "imageDark": "../../../assets/images/sites/angular-v17-angumat-dark-hashnode.jpg",
-    "imageLight": "../../../assets/images/sites/angular-v17-angumat-light-hashnode.jpg",
+    "imageDark": "../../../assets/images/sites/angular-material-dark-anguhashblog.jpg",
+    "imageLight": "../../../assets/images/sites/angular-material-light-anguhashblog.jpg",
     "angularVersion": "v17",
     "uiLib": "Angular Material",
     "dynamicTheme": "yes",
     "structure": "standalone",
     "deployment": ["Netlify" , "Vercel"],
-    "url": "https://angularmaterial.hashnodeng.com"
+    "url": "https://angularmaterial.anguhashblog.com"
   },
   {
-    "imageDark": "../../../assets/images/sites/angular-v17-primeng-dark-hashnode.jpg",
-    "imageLight": "../../../assets/images/sites/angular-v17-primeng-light-hashnode.jpg",
+    "imageDark": "../../../assets/images/sites/angular-primeng-dark-anguhashblog.jpg",
+    "imageLight": "../../../assets/images/sites/angular-primeng-light-anguhashblog.jpg",
     "angularVersion": "v17",
     "uiLib": "PrimeNG",
     "dynamicTheme": "yes",
     "structure": "standalone",
     "deployment": ["Netlify" , "Vercel"],
-    "url": "https://angularprimeng.hashnodeng.com"
+    "url": "https://angularprimeng.anguhashblog.com"
   }
 ]
