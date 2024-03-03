@@ -1,7 +1,7 @@
 [
   {
-    "imageDark": "../../../assets/images/angular-hashnode-contribute-sign.jpg",
-    "imageLight": "../../../assets/images/angular-hashnode-contribute-sign.jpg",
+    "imageDark": "../../../assets/images/anguhashblog-app-contribute-sign.jpg",
+    "imageLight": "../../../assets/images/anguhashblog-app-contribute-sign.jpg",
     "angularVersion": "v17",
     "uiLib": "Angular Material",
     "dynamicTheme": "yes",
@@ -20,8 +20,8 @@
     "url": "https://angular-v17-hashnode.monacodelisa.com/"
   },
   {
-    "imageDark": "../../../assets/images/angular-hashnode-contribute-sign.jpg",
-    "imageLight": "../../../assets/images/angular-hashnode-contribute-sign.jpg",
+    "imageDark": "../../../assets/images/anguhashblog-app-contribute-sign.jpg",
+    "imageLight": "../../../assets/images/anguhashblog-app-contribute-sign.jpg",
     "angularVersion": "v17",
     "uiLib": "Angular Material",
     "dynamicTheme": "yes",
@@ -30,8 +30,8 @@
     "url": "https://angular-v17-angumat-hashnode.monacodelisa.com/"
   },
   {
-    "imageDark": "../../../assets/images/angular-hashnode-contribute-sign.jpg",
-    "imageLight": "../../../assets/images/angular-hashnode-contribute-sign.jpg",
+    "imageDark": "../../../assets/images/anguhashblog-app-contribute-sign.jpg",
+    "imageLight": "../../../assets/images/anguhashblog-app-contribute-sign.jpg",
     "angularVersion": "v17",
     "uiLib": "PrimeNG",
     "dynamicTheme": "yes",

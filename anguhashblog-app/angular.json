@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "angular-hashnode": {
+    "anguhashblog-app": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -69,10 +69,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "angular-hashnode:build:production"
+              "buildTarget": "anguhashblog-app:build:production"
             },
             "development": {
-              "buildTarget": "angular-hashnode:build:development"
+              "buildTarget": "anguhashblog-app:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -80,7 +80,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "buildTarget": "angular-hashnode:build"
+            "buildTarget": "anguhashblog-app:build"
           }
         },
         "test": {
