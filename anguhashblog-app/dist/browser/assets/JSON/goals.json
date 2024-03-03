@@ -6,12 +6,15 @@
     "name": "Connect the Angular app to Hashnode's GraphQL database to retrieve posts and blog data."
   },
   {
-    "name": "Support Angular versions 16 and 17 with Angular Material UI."
+    "name": "Support Angular versions 17 and up."
   },
   {
-    "name": "Support Angular versions 16 and 17 with PrimeNG."
+    "name": "Support Angular Material UI integration."
   },
   {
-    "name": "Responsive layout improvements for different devices."
+    "name": "Support PrimeNG integration."
+  },
+  {
+    "name": "Provide responsive layout improvements for different devices."
   }
 ]

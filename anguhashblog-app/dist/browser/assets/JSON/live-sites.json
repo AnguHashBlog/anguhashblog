@@ -1,0 +1,32 @@
+[
+  {
+    "imageDark": "../../../assets/images/sites/angular-dark-anguhashblog.jpg",
+    "imageLight": "../../../assets/images/sites/angular-light-anguhashblog.jpg",
+    "angularVersion": "v17",
+    "uiLib": "none",
+    "dynamicTheme": "yes",
+    "structure": "standalone",
+    "deployment": ["Netlify" , "Vercel"],
+    "url": "https://angular.anguhashblog.com/"
+  },
+  {
+    "imageDark": "../../../assets/images/sites/angular-material-dark-anguhashblog.jpg",
+    "imageLight": "../../../assets/images/sites/angular-material-light-anguhashblog.jpg",
+    "angularVersion": "v17",
+    "uiLib": "Angular Material",
+    "dynamicTheme": "yes",
+    "structure": "standalone",
+    "deployment": ["Netlify" , "Vercel"],
+    "url": "https://angularmaterial.anguhashblog.com"
+  },
+  {
+    "imageDark": "../../../assets/images/sites/angular-primeng-dark-anguhashblog.jpg",
+    "imageLight": "../../../assets/images/sites/angular-primeng-light-anguhashblog.jpg",
+    "angularVersion": "v17",
+    "uiLib": "PrimeNG",
+    "dynamicTheme": "yes",
+    "structure": "standalone",
+    "deployment": ["Netlify" , "Vercel"],
+    "url": "https://angularprimeng.anguhashblog.com"
+  }
+]

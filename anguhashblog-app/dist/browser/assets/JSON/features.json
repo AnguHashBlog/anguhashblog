@@ -1,8 +1,18 @@
 [
   {
-    "name": "v16 & v17",
+    "name": "v17",
     "linkName": "Angular",
     "link": "https://angular.dev/"
+  },
+  {
+    "name": "UI Library",
+    "linkName": "Angular Material",
+    "link": "https://material.angular.io/"
+  },
+  {
+    "name": "UI Library",
+    "linkName": "PrimeNG",
+    "link": "https://primeng.org/"
   },
   {
     "name": "GraphQL Client for Angular",
