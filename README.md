@@ -1,27 +1,38 @@
-# AnguHashBlog
+# AnguHashBlog 
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.2.0.
+|![merge-animation](/anguhashblog-animation.gif)| [![Discord](https://github.com/monacodelisa/icons-and-graphics/blob/main/icomoon/PNG/discord.png?raw=true)](https://discord.gg/3bS3xpCj) |
+|---|---|
+#### formerly known as - Angular Headless Hashnode
 
-## Development server
+## Overview 
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+### The **AnguHashBlog** Open Source Project 
+aims to seamlessly connect your Angular application to the Hashnode GraphQL database, providing a template for integrating Angular with a headless Hashnode setup.
 
-## Code scaffolding
+In other words - this project is very much like the starter kit that Hashnode provides, except that this project uses Angular for the frontend 
+### so you can use your Hashnode blog with Angular ![angular logo](/angular-new-icon.png)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Existing Setup & Features
 
-## Build
+- [Angular](https://angular.dev) v17 and up.
+- [Angular Material](https://material.angular.io/) - UI Library
+- [PrimeNG](https://primeng.org/) - UI Library
+- [Appolo Angular](https://the-guild.dev/graphql/apollo-angular/docs) - GraphQL Client for Angular
+- [Font Awesome Icons](https://fontawesome.com/)
+- [Google Material Symbols and Icons](https://fonts.google.com/icons)
+- [Google Fonts](https://fonts.google.com/)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## LIVE VERSIONS
 
-## Running unit tests
+| [![AnguHashBlog dark](/anguhashblog-dark.jpg)](https://anguhashblog.com/) | [![AnguHashBlog light](anguhashblog-light.jpg)](https://anguhashblog.com/) |
+| - | - |                         
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### You can see the live versions on the [DEMO SITE](https://AnguHashBlog.com/)                             
 
-## Running end-to-end tests
+## Contributing
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Contributions of any kind are welcome!
 
-## Further help
+## Celebrate Your Achievements!
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+If you've added exciting features or functionalities that the project currently lacks, we'd love to see what you've accomplished. Share your contributions, suggestions, or improvements to help enhance the overall app experience. Your input plays a crucial role in making the application even better, and we're eager to see the innovative strides you've taken!
