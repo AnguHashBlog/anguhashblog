@@ -15,6 +15,6 @@ jobs:
       - uses: dessant/label-actions@v4
         with:
           github-token: ${{ secrets.ACCESS_TOKEN }}
-          config-path: .github/label-actions.yml
+          configuration-path: .github/label-actions.yml
 
 
