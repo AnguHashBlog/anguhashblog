@@ -2,11 +2,17 @@ name: 'Label Actions'
 
 on:
   issues:
-    types: [opened]
+    types: [labeled, unlabeled, opened]
+  pull_request_target:
+    types: [labeled, unlabeled, opened]
+  discussion:
+    types: [labeled, unlabeled, created]
 
 permissions:
   contents: read
   issues: write
+  pull-requests: write
+  discussions: write
 
 jobs:
   action:
@@ -15,6 +21,6 @@ jobs:
       - uses: dessant/label-actions@v4
         with:
           github-token: ${{ secrets.ACCESS_TOKEN }}
-          configuration-path: .github/label-actions.yml
+          config-path: .github/label-actions.yml
 
 
