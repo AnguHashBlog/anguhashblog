@@ -1,7 +1,0 @@
-# The `needs triage` label is added to new issues
-needs-triage:
-  issues:
-    label: '👀 needs triage'
-
-    comment: >
-      :mag: This issue has been marked as "👀 needs triage". Team, please review and prioritize accordingly.
