@@ -3,7 +3,7 @@ needs-triage:
   issues:
     types: [opened]
 
-    add-labels: '👀 needs triage'
+    add-labels: 'needs triage'
 
     comment: >
       :mag: This issue has been marked as "👀 needs triage". Team, please review and prioritize accordingly.
