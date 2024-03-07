@@ -2,7 +2,7 @@ name: 'Label Actions'
 
 on:
   issues:
-    types: [labeled, unlabeled, opened]
+    types: [opened]
 
 permissions:
   contents: read
