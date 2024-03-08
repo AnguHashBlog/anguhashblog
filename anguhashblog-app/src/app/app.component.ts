@@ -1,8 +1,11 @@
 import { Component, ChangeDetectorRef, OnInit, OnDestroy, inject } from "@angular/core";
 import { MediaMatcher } from "@angular/cdk/layout";
 import { RouterOutlet, RouterLink, RouterLinkActive } from "@angular/router";
+import { NavItem } from "./models/nav-item";
+import { SocialComponent } from "./components/social/social.component";
 import { HomeComponent } from "./components/home/home.component";
 import { FooterComponent } from "./components/footer/footer.component";
+import { ThemeService } from "./services/theme.service";
 
 import { MatSidenavModule } from "@angular/material/sidenav";
 import { MatListModule } from "@angular/material/list";
@@ -10,8 +13,7 @@ import { MatToolbarModule } from "@angular/material/toolbar";
 import { MatButtonModule } from "@angular/material/button";
 import {MatSlideToggleModule} from '@angular/material/slide-toggle';
 import { MatIconModule } from "@angular/material/icon";
-import { NavItem } from "./models/nav-item";
-import { ThemeService } from "./services/theme.service";
+
 
 @Component({
 	selector: "app-root",
@@ -20,6 +22,7 @@ import { ThemeService } from "./services/theme.service";
 		RouterOutlet,
 		RouterLink,
 		RouterLinkActive,
+    SocialComponent,
 		HomeComponent,
 		FooterComponent,
 		MatSidenavModule,

@@ -1,14 +1,15 @@
 import { Component, OnInit, inject } from "@angular/core";
-
-import { MatCardModule } from "@angular/material/card";
+import { LiveSite } from "../../models/live-site";
 import { ThemeService } from "../../services/theme.service";
 import { HttpClient } from "@angular/common/http";
-import { LiveSite } from "../../models/live-site";
+import { NgOptimizedImage } from "@angular/common";
+
+import { MatCardModule } from "@angular/material/card";
 
 @Component({
 	selector: "app-demos",
 	standalone: true,
-	imports: [MatCardModule],
+	imports: [NgOptimizedImage, MatCardModule],
 	templateUrl: "./demos.component.html",
 	styleUrl: "./demos.component.scss",
 })

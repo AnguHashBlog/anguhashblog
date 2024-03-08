@@ -1,0 +1,21 @@
+.social-links {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+  margin: 0 auto;
+
+  a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0.2rem;
+
+    mat-icon {
+      height: 1.1rem;
+      width: 1.1rem;
+    }
+  }
+}
+

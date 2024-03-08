@@ -5,9 +5,9 @@
         <mat-card>
           <mat-card-header>
             @if (themeService.themeSignal() === 'dark') {
-              <img src="{{site.imageDark}}" alt="">
+              <img ngSrc="{{site.imageDark}}" alt="anguhashblog demo dark" height="100" width="100">
             } @else {
-              <img src="{{site.imageLight}}" alt="">
+              <img ngSrc="{{site.imageLight}}" alt="anguhashblog demo light" height="100" width="100">
             }
           </mat-card-header>
 
