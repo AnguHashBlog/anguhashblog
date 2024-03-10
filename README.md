@@ -24,7 +24,7 @@ In other words - this project is very much like the starter kit that Hashnode pr
 
 ## LIVE VERSIONS
 
-| [![AnguHashBlog dark](/anguhashblog-dark.jpg)](https://anguhashblog.com/) | [![AnguHashBlog light](anguhashblog-light.jpg)](https://anguhashblog.com/) |
+| [![AnguHashBlog dark](/anguhashblog-site-dark.jpg)](https://anguhashblog.com/) | [![AnguHashBlog light](anguhashblog-site-light.jpg)](https://anguhashblog.com/) |
 | - | - |                         
 
 ### You can see the live versions on the [DEMO SITE](https://AnguHashBlog.com/)                             
