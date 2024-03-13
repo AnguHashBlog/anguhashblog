@@ -1,0 +1,51 @@
+<div class="dev-guide page">
+  <h1>A Guide to AnguHashBlog Development </h1>
+  <h2>The Project</h2>
+  <p>AnguHashBlog is a unique project designed to seamlessly integrate Angular into headless Hashnode blogs. Not
+    confined to a single blog, it provides a comprehensive template that can be universally applied across any Hashnode
+    blog. The versatility of AnguHashBlog lies in its use of variables, ensuring adaptability and widespread
+    applicability.</p>
+  <h2>The Technology Behind AnguHashBlog</h2>
+  <p>AnguHashBlog operates by connecting frontends to headless Hashnode blogs through Apollo Angular, a GraphQL client
+    enabling the execution of GraphQL queries within Angular. The integration involves connecting to the Hashnode public
+    API and adhering to query specifications outlined in gql.hashnode.com. Centralized in graphql.operations.ts, all
+    GraphQL queries are managed, and a dedicated blog service with various methods, retrieves relevant blog data.</p>
+  <h2>Multiple Versions for Diverse Preferences</h2>
+  <p>AnguHashBlog offers few distinct versions to cater to user preferences.</p>
+  <ul>
+    <li>The first version employs pure Angular with no UI libraries, providing a clean and minimalist approach.</li>
+    <li>The second version incorporates Angular Material for a modern and sleek aesthetic</li>
+    <li>The third version utilizes PrimeNG</li>
+    <li>And now there is a forth version devoted to using Analog & Spartan</li>
+  </ul>
+  <p>This gives users the flexibility to choose their preferred UI library. Regardless of the version, AnguHashBlog
+    ensures a fully functional and aesthetically pleasing blog, allowing Angular developers to customize as desired.</p>
+  <h2>Guided Evolution from Hashnode</h2>
+  <p>As a guiding principle, every new feature implementation in AnguHashBlog stems from Hashnode. While improvements
+    and enhancements are made, the goal is to never regress from Hashnode's existing offerings. Hashnode serves as a
+    foundational guide, and any alterations aim to build upon and enhance the overall functionality.</p>
+  <h2>Standardization Across App Versions</h2>
+  <p>Despite differences in UI libraries and component structures, AnguHashBlog maintains standardized practices. The
+    core structure of all apps remains uniform, with UI library versions utilizing provided components and features. The
+    pure Angular version is crafted from scratch, but consistency in file structure, naming conventions, and style
+    guides is emphasized across all app variants.</p>
+  <h2>Collaborative Development and Roadmap Alignment</h2>
+  <p>In our collaborative development approach, it's imperative to cross-reference each version of AnguHashBlog. Before
+    implementing a new feature or addressing a bug, a thorough check is conducted to ascertain if the same has already
+    been tackled in another version. This ensures that solutions are consistently applied across all variants.</p>
+  <p>Importantly, any proposed suggestions for improvements undergo discussion before implementation to maintain a
+    unified roadmap across all app versions. This collaborative and synchronized effort guarantees a cohesive
+    development process, minimizing discrepancies and maximizing the collective strength of AnguHashBlog.</p>
+  <h2>Open Communication and Code Guidelines</h2>
+  <p>Beyond that, this collaborative space encourages open discussions here or in comments. Before implementing changes,
+    it's highly advisable to vocalize questions or propose ideas to prevent potential pull request rejections.
+    Emphasizing a proactive approach, we value your input and encourage you to engage in conversations, ensuring a
+    smooth and collaborative development environment. Additionally, I kindly remind all contributors to adhere to the
+    specified coding rules and commit message guidelines meticulously outlined in the <a
+      routerLink="/contributing">Contributing</a>. Consistent compliance with these standards is vital for maintaining
+    code quality and facilitating seamless collaboration within the AnguHashBlog community.</p>
+  <div class="signature">
+    <p>Thank you,</p>
+    <p>Estee</p>
+  </div>
+</div>

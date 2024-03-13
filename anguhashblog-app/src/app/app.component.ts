@@ -44,9 +44,11 @@ export class AppComponent implements OnInit, OnDestroy {
 	navItems: NavItem [] = [
 		{ name: "Home", route: "home", icon: "home" },
 		{ name: "Demos", route: "demos", icon: "widgets" },
-		{ name: "Contribute", route: "contribute", icon: "code" },
-		{ name: "How To Use", route: "use", icon: "note" },
-		{ name: "Contact", route: "contact", icon: "email" },
+		{ name: "Dev Guide", route: "development-guide", icon: "code" },
+		{ name: "Contributing", route: "contributing", icon: "code" },
+		{ name: "Code Of Conduct", route: "code-of-conduct", icon: "code" },
+		// { name: "How To Use", route: "use", icon: "note" },
+		// { name: "Contact", route: "contact", icon: "email" },
 	];
 
 	private _mobileQueryListener: () => void;
