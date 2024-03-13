@@ -13,7 +13,7 @@ body:
       label: Type of feature
       description: Select the type of feature request, the lowercase should also be the PR prefix.
       options:
-        - "🍕 Feature"
+        - "✨ Feature"
         - "🐛 Fix"
         - "📝 Documentation"
         - "🎨 Style"
