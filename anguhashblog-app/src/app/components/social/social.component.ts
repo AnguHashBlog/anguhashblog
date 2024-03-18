@@ -13,7 +13,7 @@ export class SocialComponent {
 
   socialLinks = [
     { url: "https://github.com/anguhashblog", icon: "github" },
-    { url: "https://discord.com/invite/3bS3xpCj", icon: "discord" },
+    { url: "https://discord.gg/SQCFCACz", icon: "discord" },
     { url: "https://hashnode.anguhashblog.com", icon: "hashnode" },
     { url: "https://www.youtube.com/@AnguHashBlog", icon: "youtube" },
     { url: "https://www.linkedin.com/company/anguhashblog/", icon: "linkedin" },
