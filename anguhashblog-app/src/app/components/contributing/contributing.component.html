@@ -30,6 +30,23 @@
     <mat-expansion-panel>
       <mat-expansion-panel-header>
         <mat-panel-title>
+          <h2>Issues - Features vs Bugs</h2>
+        </mat-panel-title>
+      </mat-expansion-panel-header>
+      <p>Not all issues are bug fixes! Please understand the difference between a Feature and a Bug when it comes to issue creation.</p>
+      <ul>
+        <li><span>FEATURE</span> - when you are implementing something new that has not been worked on before</li>
+        <li><span>BUG</span> - when you are correcting something that has been worked on before </li>
+      </ul>
+      <p>Example:</p>
+      <ul>
+        <li>Responsiveness - when you start working on responsiveness, if no one has done anything related to responsiveness throughout a view or the entire app, then you are working on a feature and not a bug.</li>
+      </ul>
+    </mat-expansion-panel>
+
+    <mat-expansion-panel>
+      <mat-expansion-panel-header>
+        <mat-panel-title>
           <h2>Submitting an Issue</h2>
         </mat-panel-title>
       </mat-expansion-panel-header>
@@ -151,6 +168,8 @@
         <li>wh, vh, dvw dvh</li>
         <li>avoid using px</li>
       </ul>
+      <h3>Media queries</h3>
+      <p>The placement for media queries is the standard placement - below all the other styles.</p>
       <h3>Indentation & Formatting</h3>
       <p>Maintain the project's indentation and formatting. Do not include formatting changes in your PRs, only include
         code that you have changed. It doesn't look like you have done more when you submit a PR with tons of
