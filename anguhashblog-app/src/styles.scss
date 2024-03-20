@@ -10,6 +10,8 @@ body {
 }
 
 .page {
+  display: flex;
+  flex-direction: column;
 
   h3 {
     font-size: 1.2rem;
