@@ -1,4 +1,10 @@
-import { Component, ChangeDetectorRef, OnInit, OnDestroy, inject } from "@angular/core";
+import {
+	Component,
+	ChangeDetectorRef,
+	OnInit,
+	OnDestroy,
+	inject,
+} from "@angular/core";
 import { MediaMatcher } from "@angular/cdk/layout";
 import { RouterOutlet, RouterLink, RouterLinkActive } from "@angular/router";
 import { NavItem } from "./models/nav-item";
@@ -11,9 +17,9 @@ import { MatSidenavModule } from "@angular/material/sidenav";
 import { MatListModule } from "@angular/material/list";
 import { MatToolbarModule } from "@angular/material/toolbar";
 import { MatButtonModule } from "@angular/material/button";
-import {MatSlideToggleModule} from '@angular/material/slide-toggle';
+import { MatSlideToggleModule } from "@angular/material/slide-toggle";
 import { MatIconModule } from "@angular/material/icon";
-
+import { ViewportScroller } from "@angular/common";
 
 @Component({
 	selector: "app-root",
@@ -22,14 +28,14 @@ import { MatIconModule } from "@angular/material/icon";
 		RouterOutlet,
 		RouterLink,
 		RouterLinkActive,
-    SocialComponent,
+		SocialComponent,
 		HomeComponent,
 		FooterComponent,
 		MatSidenavModule,
 		MatListModule,
 		MatToolbarModule,
 		MatButtonModule,
-    MatSlideToggleModule,
+		MatSlideToggleModule,
 		MatIconModule,
 	],
 	templateUrl: "./app.component.html",
@@ -39,9 +45,10 @@ export class AppComponent implements OnInit, OnDestroy {
 	title = "AnguHashBlog";
 	snavIsOpen = true;
 	mobileQuery: MediaQueryList;
-  themeService: ThemeService = inject(ThemeService);
+	themeService: ThemeService = inject(ThemeService);
+	private readonly scroller = inject(ViewportScroller);
 
-	navItems: NavItem [] = [
+	navItems: NavItem[] = [
 		{ name: "Home", route: "home", icon: "home" },
 		{ name: "Demos", route: "demos", icon: "widgets" },
 		{ name: "Dev Guide", route: "development-guide", icon: "code" },
@@ -59,14 +66,13 @@ export class AppComponent implements OnInit, OnDestroy {
 		this.mobileQuery.addListener(this._mobileQueryListener);
 	}
 
+	ngOnInit(): void {
+		this.scroller.scrollToPosition([0, 0]);
+	}
 
-  ngOnInit(): void {
-
-  }
-
-  toggleTheme() {
-    this.themeService.updateTheme();
-  }
+	toggleTheme() {
+		this.themeService.updateTheme();
+	}
 
 	ngOnDestroy(): void {
 		this.mobileQuery.removeListener(this._mobileQueryListener);

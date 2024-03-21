@@ -69,3 +69,18 @@
     }
   }
 }
+
+@media (max-width: 600px) {
+  :host {
+    width: 100%;
+    .demos {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      .cards-wrapper {
+        width: 90vw;
+      }
+    }
+  }
+}

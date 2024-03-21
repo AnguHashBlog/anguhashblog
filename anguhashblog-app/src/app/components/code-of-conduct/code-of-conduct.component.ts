@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { ViewportScroller } from '@angular/common';
+import { Component, inject, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-code-of-conduct',
@@ -7,7 +8,9 @@ import { Component } from '@angular/core';
   templateUrl: './code-of-conduct.component.html',
   styleUrl: './code-of-conduct.component.scss'
 })
-export class CodeOfConductComponent {
+export class CodeOfConductComponent implements OnInit {
+  private readonly scroller = inject(ViewportScroller);
+
   goodBehavior = [
     "Demonstrating empathy and kindness toward other people",
     "Being respectful of differing opinions, viewpoints, and experiences",
@@ -23,4 +26,8 @@ export class CodeOfConductComponent {
     "Publishing others' private information, such as a physical or email address, without their explicit permission",
     "Other conduct which could reasonably be considered inappropriate in a professional setting"
   ]
+
+  ngOnInit(): void {
+    this.scroller.scrollToPosition([0, 0]);
+  }
 }

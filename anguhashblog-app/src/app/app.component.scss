@@ -19,9 +19,13 @@
 
     mat-sidenav-container {
       flex: 1 0 auto;
+
+      mat-sidenav-content {
+        margin-left: 0;
+        padding: 1rem;
+      }
     }
   }
-
 
   mat-toolbar {
     justify-content: space-between;

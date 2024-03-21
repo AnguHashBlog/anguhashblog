@@ -1,7 +1,8 @@
-import { Component } from '@angular/core';
+import { Component, inject, OnInit } from '@angular/core';
 import { RouterLink } from '@angular/router';
 
 import {MatExpansionModule} from '@angular/material/expansion';
+import { ViewportScroller } from '@angular/common';
 
 @Component({
   selector: 'app-contributing',
@@ -10,6 +11,10 @@ import {MatExpansionModule} from '@angular/material/expansion';
   templateUrl: './contributing.component.html',
   styleUrl: './contributing.component.scss'
 })
-export class ContributingComponent {
+export class ContributingComponent implements OnInit {
+  private readonly scroller = inject(ViewportScroller);
 
+  ngOnInit(): void {
+    this.scroller.scrollToPosition([0, 0]);
+  }
 }

@@ -3,6 +3,7 @@ import { HttpClient } from "@angular/common/http";
 import { Goal } from "../../models/goal";
 import { Feature } from "../../models/feature";
 import { ThemeService } from "../../services/theme.service";
+import { ViewportScroller } from "@angular/common";
 
 @Component({
 	selector: "app-home",
@@ -13,13 +14,15 @@ import { ThemeService } from "../../services/theme.service";
 })
 export class HomeComponent implements OnInit {
   videoVolume = 0;
-  themeService: ThemeService = inject(ThemeService);
   http: HttpClient = inject(HttpClient);
+  themeService: ThemeService = inject(ThemeService);
+  private readonly scroller = inject(ViewportScroller);
 
 	goals: Goal[] = [];
 	features: Feature[] = [];
 
   ngOnInit() :void {
+    this.scroller.scrollToPosition([0, 0]);
     this.http.get<Goal[]>("../../assets/JSON/goals.json").subscribe((data) => {
       this.goals = data;
     });

@@ -47,3 +47,23 @@ ul {
     line-height: 1.7rem;
   }
 }
+
+@media (max-width: 600px) {
+  .page {
+    padding: 1rem;
+    width: 90vw;
+
+    p {
+      font-size: 1.2rem;
+      line-height: 1.5rem;
+    }
+
+    ul {
+      margin: 0;
+      li {
+        font-size: 1.2rem;
+        line-height: 1.5rem;
+      }
+    }
+  }
+}
