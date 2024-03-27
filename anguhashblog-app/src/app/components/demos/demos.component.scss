@@ -6,7 +6,7 @@
     align-items: center;
     justify-content: center;
     width: 80vw;
-    margin-bottom: 2rem;;
+    margin-bottom: 2rem;
 
     a {
       &:hover {
@@ -67,6 +67,16 @@
         }
       }
     }
+  }
+
+  .links-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    width: 80vw;
+    margin-bottom: 1rem;
   }
 }
 

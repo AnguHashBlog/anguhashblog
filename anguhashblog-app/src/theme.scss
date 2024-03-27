@@ -43,7 +43,6 @@ $semi-light-bg-color: #c0c0c0;
 $dark-text-color: #333;
 
 
-
 // Dark mode
 .dark {
   @include mat.all-component-colors($dark-theme);
@@ -112,6 +111,12 @@ $dark-text-color: #333;
         background: linear-gradient(135deg, #4b434c, #958498, #4b434c,);
         box-shadow: inset 0 0 0.4rem 0.1rem #3f374091;
       }
+    }
+  }
+
+  .dev-guide {
+    span {
+      color: $accent-2;
     }
   }
 }
@@ -184,6 +189,12 @@ $dark-text-color: #333;
         background: linear-gradient(135deg, #b0a3b2, #e1cee4, #b0a3b2,);
         box-shadow: inset 0 0 0.4rem 0.1rem #8378856f;
       }
+    }
+  }
+
+  .dev-guide {
+    span {
+      color: $accent-4;
     }
   }
 }
