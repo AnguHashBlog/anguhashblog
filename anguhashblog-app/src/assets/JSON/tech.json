@@ -1,0 +1,42 @@
+[
+  {
+    "name": "v17 and up",
+    "linkName": "Angular",
+    "link": "https://angular.dev/"
+  },
+  {
+    "name": "v1.0.2 and up",
+    "linkName": "Analog",
+    "link": "https://analogjs.org//"
+  },
+  {
+    "name": "UI Library",
+    "linkName": "Angular Material",
+    "link": "https://material.angular.io/"
+  },
+  {
+    "name": "UI Library",
+    "linkName": "PrimeNG",
+    "link": "https://primeng.org/"
+  },
+  {
+    "name": "GraphQL Client for Angular",
+    "linkName": "Appolo Angular",
+    "link": "https://the-guild.dev/graphql/apollo-angular/docs"
+  },
+  {
+    "name": "",
+    "linkName": "Font Awesome Icons",
+    "link": "https://fontawesome.com/"
+  },
+  {
+    "name": "",
+    "linkName": "Google Material Symbols and Icons",
+    "link": "https://fonts.google.com/icons"
+  },
+  {
+    "name": "",
+    "linkName": "Google Fonts",
+    "link": "https://fonts.google.com/"
+  }
+]

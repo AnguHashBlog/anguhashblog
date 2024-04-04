@@ -14,20 +14,20 @@
       <h3>The AnguHashBlog Project</h3>
       <small>formarly known as <i>Angular Headless Hashnode</i></small>
     </div>
-    <p>aims to seamlessly connect your Angular application to the Hashnode GraphQL
-      database, providing a template for integrating Angular with a headless Hashnode setup.</p>
+    <p>Seamlessly connects your Angular or Analog application to the Hashnode GraphQL
+      API, providing a template integration with a headless Hashnode setup.</p>
     <p>In other words - this project is very much like the starter kit that Hashnode provides, except that this project
-      uses Angular for the frontend and deployment is set to be done through Netlify.</p>
-    <h2>Project Goals</h2>
-    <ul>
-      @for (goal of goals; track goal) {
-      <li>{{goal.name}}</li>
-      }
-    </ul>
-    <h2>Existing Setup & Features</h2>
+      uses Angular / Analog.</p>
+    <h2>Project Features</h2>
     <ul>
       @for (feature of features; track feature) {
-      <li><a href="{{feature.link}}" target="_blank" rel="noopener noreferrer">{{feature.linkName}}</a> {{feature.name}}
+      <li>{{feature.name}}</li>
+      }
+    </ul>
+    <h2>Setup & Tech</h2>
+    <ul>
+      @for (techItem of tech; track techItem) {
+      <li><a href="{{techItem.link}}" target="_blank" rel="noopener noreferrer">{{techItem.linkName}}</a> {{techItem.name}}
       </li>
       }
     </ul>

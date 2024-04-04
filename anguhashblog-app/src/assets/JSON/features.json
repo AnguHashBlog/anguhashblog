@@ -1,37 +1,26 @@
 [
   {
-    "name": "v17",
-    "linkName": "Angular",
-    "link": "https://angular.dev/"
+    "name": "Users can test all the templates with their Hashnode blog URLs in the browser!"
   },
   {
-    "name": "UI Library",
-    "linkName": "Angular Material",
-    "link": "https://material.angular.io/"
+    "name": "Flexible blog template for Angular integration with headless Hashnode."
   },
   {
-    "name": "UI Library",
-    "linkName": "PrimeNG",
-    "link": "https://primeng.org/"
+    "name": "Flexible blog template for Analog integration with headless Hashnode."
   },
   {
-    "name": "GraphQL Client for Angular",
-    "linkName": "Appolo Angular",
-    "link": "https://the-guild.dev/graphql/apollo-angular/docs"
+    "name": "Established connection to Hashnode's GraphQL API for blog data retrieval."
   },
   {
-    "name": "",
-    "linkName": "Font Awesome Icons",
-    "link": "https://fontawesome.com/"
+    "name": "Supporting Angular versions 17 and up."
   },
   {
-    "name": "",
-    "linkName": "Google Material Symbols and Icons",
-    "link": "https://fonts.google.com/icons"
+    "name": "Supporting Angular Material UI integration."
   },
   {
-    "name": "",
-    "linkName": "Google Fonts",
-    "link": "https://fonts.google.com/"
+    "name": "Supporting PrimeNG integration."
+  },
+  {
+    "name": "Providing responsive layout for different devices."
   }
 ]

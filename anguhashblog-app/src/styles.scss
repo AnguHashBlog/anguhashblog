@@ -48,6 +48,11 @@ ul {
   }
 }
 
+code {
+  padding: 0.3rem 1rem;
+  border-radius: 0.2rem;
+}
+
 @media (max-width: 600px) {
   .page {
     padding: 1rem;

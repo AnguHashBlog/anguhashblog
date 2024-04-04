@@ -1,20 +1,23 @@
-# AnguHashBlog 
+# AnguHashBlog
 
-|![merge-animation](/anguhashblog-merge-animation.gif)| [![Discord](https://github.com/monacodelisa/icons-and-graphics/blob/main/icomoon/PNG/discord.png?raw=true)](https://discord.gg/3bS3xpCj) |
-|---|---|
+| ![merge-animation](/anguhashblog-merge-animation.gif) | [![Discord](https://github.com/monacodelisa/icons-and-graphics/blob/main/icomoon/PNG/discord.png?raw=true)](https://discord.gg/3bS3xpCj) |
+| ----------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
+
 #### formerly known as - Angular Headless Hashnode
 
-## Overview 
+## Overview
 
-### The **AnguHashBlog** Open Source Project 
-aims to seamlessly connect your Angular application to the Hashnode GraphQL database, providing a template for integrating Angular with a headless Hashnode setup.
+### The **AnguHashBlog** Open Source Project
 
-In other words - this project is very much like the starter kit that Hashnode provides, except that this project uses Angular for the frontend 
-### so you can use your Hashnode blog with Angular ![angular logo](/angular-new-icon.png)
+Seamlessly connects your Angular or Analog application to the Hashnode GraphQL
+API, providing a template integration with a headless Hashnode setup.
+
+In other words - this project is very much like the starter kit that Hashnode provides, except that this project uses Angular / Analog.
 
 ## Existing Setup & Features
 
-- [Angular](https://angular.dev) v17 and up.
+- [Angular](https://angular.dev) - v17 and up
+- [Analog](https://analogjs.org/) - v1.0.2 and up
 - [Angular Material](https://material.angular.io/) - UI Library
 - [PrimeNG](https://primeng.org/) - UI Library
 - [Appolo Angular](https://the-guild.dev/graphql/apollo-angular/docs) - GraphQL Client for Angular
@@ -25,9 +28,9 @@ In other words - this project is very much like the starter kit that Hashnode pr
 ## LIVE VERSIONS
 
 | [![AnguHashBlog dark](/anguhashblog-site-dark.jpg)](https://anguhashblog.com/) | [![AnguHashBlog light](anguhashblog-site-light.jpg)](https://anguhashblog.com/) |
-| - | - |                         
+| ------------------------------------------------------------------------------ | ------------------------------------------------------------------------------- |
 
-### You can see the live versions on the [DEMO SITE](https://AnguHashBlog.com/)                             
+### You can see the live versions on the [DEMO SITE](https://AnguHashBlog.com/)
 
 ## Contributing
 

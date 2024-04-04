@@ -119,6 +119,10 @@ $dark-text-color: #333;
       color: $accent-2;
     }
   }
+
+  code {
+    background-color: #353535;
+  }
 }
 
 // Light mode
@@ -196,5 +200,10 @@ $dark-text-color: #333;
     span {
       color: $accent-4;
     }
+  }
+
+  code {
+    background-color: #858585;
+    color: #FFF;
   }
 }

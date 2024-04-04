@@ -18,16 +18,16 @@ export class HomeComponent implements OnInit {
   themeService: ThemeService = inject(ThemeService);
   private readonly scroller = inject(ViewportScroller);
 
-	goals: Goal[] = [];
-	features: Feature[] = [];
+	features: Goal[] = [];
+	tech: Feature[] = [];
 
   ngOnInit() :void {
     this.scroller.scrollToPosition([0, 0]);
-    this.http.get<Goal[]>("../../assets/JSON/goals.json").subscribe((data) => {
-      this.goals = data;
-    });
-    this.http.get<Feature[]>("../../assets/JSON/features.json").subscribe((data) => {
+    this.http.get<Goal[]>("../../assets/JSON/features.json").subscribe((data) => {
       this.features = data;
+    });
+    this.http.get<Feature[]>("../../assets/JSON/tech.json").subscribe((data) => {
+      this.tech = data;
     });
   }
 }
