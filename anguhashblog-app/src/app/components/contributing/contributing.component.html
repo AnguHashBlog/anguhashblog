@@ -25,7 +25,7 @@
         </mat-panel-title>
       </mat-expansion-panel-header>
       <p>Do not open issues for general support questions as we want to keep GitHub issues for bug reports and feature
-        requests. Instead, we recommend using Discussions to ask support-related questions.</p>
+        requests. Instead, we recommend using <a href="https://github.com/orgs/AnguHashBlog/discussions" target="_blank" rel="noopener noreferrer">Discussions</a> or <a href="https://discord.gg/MZX8Pm6q" target="_blank" rel="noopener noreferrer">Discord</a> to ask support-related questions.</p>
     </mat-expansion-panel>
 
     <mat-expansion-panel #featuresVsBugs [id]="'features-vs-bugs'" [expanded]="currentPanelId === 'features-vs-bugs'">
@@ -47,6 +47,16 @@
       </ul>
     </mat-expansion-panel>
 
+    <mat-expansion-panel #openIssueFirst [id]="'open-issue-first'"
+    [expanded]="currentPanelId === 'open-issue-first'">
+    <mat-expansion-panel-header>
+      <mat-panel-title>
+        <h2>For all Issues - first open an issue and outline your proposal so that it can be discussed.</h2>
+      </mat-panel-title>
+    </mat-expansion-panel-header>
+    <p>This process allows us to better coordinate our efforts, prevent duplication of work, and help you to craft the change so that it is successfully accepted into the project.</p>
+  </mat-expansion-panel>
+
     <mat-expansion-panel #submittingAnIssue [id]="'submitting-an-issue'" [expanded]="currentPanelId === 'submitting-an-issue'">
       <mat-expansion-panel-header>
         <mat-panel-title>
@@ -62,9 +72,9 @@
       <p>Providing a minimal reproduction is crucial for saving time, increasing the chances of a quick resolution, and
         ensuring that focus is given to the correct issue.</p>
       <hr />
-      <p>DO NOT erase the provided issue template! It is intended for you to use, not replace with random text.</p>
+      <p>DO NOT erase the provided issue template! It is intended for you to use, not to replace it with random text.</p>
       <hr />
-      <p>It is always a good practice to review existing issues and ensure your new issue matches the established
+      <p>It is always a good practice to look up existing issues and ensure your new issue matches the established
         format. This helps maintain consistency and makes it easier for others to understand and collaborate on the
         issue.</p>
     </mat-expansion-panel>
@@ -98,7 +108,7 @@
           like to add. Discussing the design upfront helps to ensure that we're ready to accept your work.</li>
         <li><a
             href="https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo"
-            target="_blank" rel="noopener noreferrer">Fork</a> the AnguHashBlog/angular repo.</li>
+            target="_blank" rel="noopener noreferrer">Fork</a> the AnguHashBlog repo of your choice.</li>
         <li>In your forked repository, make your changes in a new git branch:
           <pre><code>git checkout -b my-fix-branch develop</code></pre>
           <p>The default branch is develop</p>
@@ -117,9 +127,9 @@
         <li>In GitHub, send a pull request to <span>AnguHashBlog/angular:develop</span></li>
       </ol>
       <hr />
-      <p>DO NOT erase the provided PR template! It is intended for you to use, not replace with random text.</p>
+      <p>DO NOT erase the provided PR template! It is intended for you to use, not to replace it with random text.</p>
       <hr />
-      <p>It is always a good practice to review already merged PRs and ensure your new PR matches the established
+      <p>It is always a good practice to look up already merged PRs and ensure your new PR matches the established
         format. This helps maintain consistency and makes it easier for others to understand and collaborate.</p>
     </mat-expansion-panel>
 
