@@ -1,9 +1,75 @@
 [
   {
-    "name": "Header",
+    "name": "Sitewide",
     "features": [
       {
-        "name": "Dynamic Theme Switching ",
+        "name": "Repo and app created",
+        "description": "A designated repo for this app version was created and the app was added.",
+        "app": [
+          {
+            "name": "Angular",
+            "status": "done"
+          },
+          {
+            "name": "Angular Material",
+            "status": "done"
+          },
+          {
+            "name": "PrimeNG",
+            "status": "done"
+          },
+          {
+            "name": "Analog",
+            "status": "done"
+          }
+        ]
+      },
+      {
+        "name": "Header and Footer added - basic layout",
+        "description": "The basic layout for the app",
+        "app": [
+          {
+            "name": "Angular",
+            "status": "done"
+          },
+          {
+            "name": "Angular Material",
+            "status": "done"
+          },
+          {
+            "name": "PrimeNG",
+            "status": "done"
+          },
+          {
+            "name": "Analog",
+            "status": "done"
+          }
+        ]
+      },
+      {
+        "name": "Dynamic Theme Switching - themeService",
+        "description": "Implemented using a themeService and a toggle button in the header.",
+        "app": [
+          {
+            "name": "Angular",
+            "status": "done"
+          },
+          {
+            "name": "Angular Material",
+            "status": "done"
+          },
+          {
+            "name": "PrimeNG",
+            "status": "done"
+          },
+          {
+            "name": "Analog",
+            "status": ""
+          }
+        ]
+      },
+      {
+        "name": "Apollo Angular implemented for GraphQL queries",
         "description": "Implemented using a themeService and a toggle button in the header.",
         "app": [
           {
@@ -23,14 +89,9 @@
             "status": "done"
           }
         ]
-      }
-    ]
-  },
-  {
-    "name": "Footer",
-    "features": [
+      },
       {
-        "name": "Some other feature",
+        "name": "BlogService with all relevant methods created and in use",
         "description": "Implemented using a themeService and a toggle button in the header.",
         "app": [
           {
@@ -48,6 +109,747 @@
           {
             "name": "Analog",
             "status": "done"
+          }
+        ]
+      },
+      {
+        "name": "Posts component created, blog posts are queried, displayed & styled",
+        "description": "Implemented using a themeService and a toggle button in the header.",
+        "app": [
+          {
+            "name": "Angular",
+            "status": "done"
+          },
+          {
+            "name": "Angular Material",
+            "status": "done"
+          },
+          {
+            "name": "PrimeNG",
+            "status": "done"
+          },
+          {
+            "name": "Analog",
+            "status": "done"
+          }
+        ]
+      },
+      {
+        "name": "Posts details component created, dynamically displaying blog post data, by slug",
+        "description": "Implemented using a themeService and a toggle button in the header.",
+        "app": [
+          {
+            "name": "Angular",
+            "status": "done"
+          },
+          {
+            "name": "Angular Material",
+            "status": "done"
+          },
+          {
+            "name": "PrimeNG",
+            "status": "done"
+          },
+          {
+            "name": "Analog",
+            "status": "done"
+          }
+        ]
+      },
+      {
+        "name": "Posts details component initial styling has been applied",
+        "description": "Implemented using a themeService and a toggle button in the header.",
+        "app": [
+          {
+            "name": "Angular",
+            "status": "done"
+          },
+          {
+            "name": "Angular Material",
+            "status": "done"
+          },
+          {
+            "name": "PrimeNG",
+            "status": "done"
+          },
+          {
+            "name": "Analog",
+            "status": "done"
+          }
+        ]
+      },
+      {
+        "name": "Logo redirect to home page implemented in header",
+        "description": "Implemented using a themeService and a toggle button in the header.",
+        "app": [
+          {
+            "name": "Angular",
+            "status": "done"
+          },
+          {
+            "name": "Angular Material",
+            "status": "done"
+          },
+          {
+            "name": "PrimeNG",
+            "status": "done"
+          },
+          {
+            "name": "Analog",
+            "status": "done"
+          }
+        ]
+      },
+      {
+        "name": "Social media links are queried and displayed in header in header",
+        "description": "Implemented using a themeService and a toggle button in the header.",
+        "app": [
+          {
+            "name": "Angular",
+            "status": "done"
+          },
+          {
+            "name": "Angular Material",
+            "status": "done"
+          },
+          {
+            "name": "PrimeNG",
+            "status": "done"
+          },
+          {
+            "name": "Analog",
+            "status": "done"
+          }
+        ]
+      },
+      {
+        "name": "Custom SVGs used for social icon - SVG component where no UI library is used",
+        "description": "Implemented using a themeService and a toggle button in the header.",
+        "app": [
+          {
+            "name": "Angular",
+            "status": "done"
+          },
+          {
+            "name": "Angular Material",
+            "status": "done"
+          },
+          {
+            "name": "PrimeNG",
+            "status": "done"
+          },
+          {
+            "name": "Analog",
+            "status": "done"
+          }
+        ]
+      },
+      {
+        "name": "The new twitter logo of 'X' is used for the social link in header and sidenav",
+        "description": "Implemented using a themeService and a toggle button in the header.",
+        "app": [
+          {
+            "name": "Angular",
+            "status": "done"
+          },
+          {
+            "name": "Angular Material",
+            "status": "done"
+          },
+          {
+            "name": "PrimeNG",
+            "status": "",
+            "issueLink": "https://github.com/AnguHashBlog/angular-primeng/issues/16"
+          },
+          {
+            "name": "Analog",
+            "status": "done"
+          }
+        ]
+      },
+      {
+        "name": "Default og:image and meta tags added to index.html",
+        "description": "Implemented using a themeService and a toggle button in the header.",
+        "app": [
+          {
+            "name": "Angular",
+            "status": "done"
+          },
+          {
+            "name": "Angular Material",
+            "status": "done"
+          },
+          {
+            "name": "PrimeNG",
+            "status": "done"
+          },
+          {
+            "name": "Analog",
+            "status": "",
+            "issueLink": "https://github.com/AnguHashBlog/analog/issues"
+          }
+        ]
+      },
+      {
+        "name": "Interfaces are in the models folder and consist of - blog-info.ts and post.ts",
+        "description": "Implemented using a themeService and a toggle button in the header.",
+        "app": [
+          {
+            "name": "Angular",
+            "status": "done"
+          },
+          {
+            "name": "Angular Material",
+            "status": "done"
+          },
+          {
+            "name": "PrimeNG",
+            "status": "done"
+          },
+          {
+            "name": "Analog",
+            "status": "done"
+          }
+        ]
+      },
+      {
+        "name": "All GraphQL operations are contained in the graphql.operations.ts file",
+        "description": "Implemented using a themeService and a toggle button in the header.",
+        "app": [
+          {
+            "name": "Angular",
+            "status": "done"
+          },
+          {
+            "name": "Angular Material",
+            "status": "done"
+          },
+          {
+            "name": "PrimeNG",
+            "status": "done"
+          },
+          {
+            "name": "Analog",
+            "status": "done"
+          }
+        ]
+      },
+      {
+        "name": "Blog series are queried and displayed in header with router link by slug",
+        "description": "Implemented using a themeService and a toggle button in the header.",
+        "app": [
+          {
+            "name": "Angular",
+            "status": "done"
+          },
+          {
+            "name": "Angular Material",
+            "status": "done"
+          },
+          {
+            "name": "PrimeNG",
+            "status": "done"
+          },
+          {
+            "name": "Analog",
+            "status": "done"
+          }
+        ]
+      },
+      {
+        "name": "Series component has been created with styling matching Posts component and series are displayed by matching slug",
+        "description": "Implemented using a themeService and a toggle button in the header.",
+        "app": [
+          {
+            "name": "Angular",
+            "status": "done"
+          },
+          {
+            "name": "Angular Material",
+            "status": "done"
+          },
+          {
+            "name": "PrimeNG",
+            "status": "done"
+          },
+          {
+            "name": "Analog",
+            "status": "",
+            "issueLink": "https://github.com/AnguHashBlog/analog/issues"
+          }
+        ]
+      },
+      {
+        "name": "Each Post in Series is also setup to display the Post details component matched by post slug",
+        "description": "Implemented using a themeService and a toggle button in the header.",
+        "app": [
+          {
+            "name": "Angular",
+            "status": "done"
+          },
+          {
+            "name": "Angular Material",
+            "status": "done"
+          },
+          {
+            "name": "PrimeNG",
+            "status": "done"
+          },
+          {
+            "name": "Analog",
+            "status": "",
+            "issueLink": "https://github.com/AnguHashBlog/analog/issues"
+          }
+        ]
+      },
+      {
+        "name": "Code snippets in post-details are styled for light and dark mode using the appropriate style file",
+        "description": "Implemented using a themeService and a toggle button in the header.",
+        "app": [
+          {
+            "name": "Angular",
+            "status": "done"
+          },
+          {
+            "name": "Angular Material",
+            "status": "done"
+          },
+          {
+            "name": "PrimeNG",
+            "status": "done"
+          },
+          {
+            "name": "Analog",
+            "status": "",
+            "issueLink": "https://github.com/AnguHashBlog/analog/issues"
+          }
+        ]
+      },
+      {
+        "name": "A copy button has been added for code snippets using a custom directive",
+        "description": "Implemented using a themeService and a toggle button in the header.",
+        "app": [
+          {
+            "name": "Angular",
+            "status": "done"
+          },
+          {
+            "name": "Angular Material",
+            "status": "",
+            "issueLink": "https://github.com/AnguHashBlog/angular-material/issues/7"
+          },
+          {
+            "name": "PrimeNG",
+            "status": "",
+            "issueLink": "https://github.com/AnguHashBlog/angular-primeng/issues/6"
+          },
+          {
+            "name": "Analog",
+            "status": "",
+            "issueLink": "https://github.com/AnguHashBlog/analog/issues"
+          }
+        ]
+      },
+      {
+        "name": "YouTube Videos in post details are styled and displayed correctly using a custom directive",
+        "description": "Implemented using a themeService and a toggle button in the header.",
+        "app": [
+          {
+            "name": "Angular",
+            "status": "done"
+          },
+          {
+            "name": "Angular Material",
+            "status": "done"
+          },
+          {
+            "name": "PrimeNG",
+            "status": "done"
+          },
+          {
+            "name": "Analog",
+            "status": "",
+            "issueLink": "https://github.com/AnguHashBlog/analog/issues"
+          }
+        ]
+      },
+      {
+        "name": "A popup dialog has been created in the partials folder for the follow button in header",
+        "description": "Implemented using a themeService and a toggle button in the header.",
+        "app": [
+          {
+            "name": "Angular",
+            "status": "done"
+          },
+          {
+            "name": "Angular Material",
+            "status": "done"
+          },
+          {
+            "name": "PrimeNG",
+            "status": "done"
+          },
+          {
+            "name": "Analog",
+            "status": "done"
+          }
+        ]
+      },
+      {
+        "name": "A search dialog has been created in the partials folder with a search button in header",
+        "description": "Implemented using a themeService and a toggle button in the header.",
+        "app": [
+          {
+            "name": "Angular",
+            "status": "",
+            "issueLink": "https://github.com/AnguHashBlog/angular/issues/13"
+          },
+          {
+            "name": "Angular Material",
+            "status": "done"
+          },
+          {
+            "name": "PrimeNG",
+            "status": "done"
+          },
+          {
+            "name": "Analog",
+            "status": "",
+            "issueLink": "https://github.com/AnguHashBlog/analog/issues"
+          }
+        ]
+      },
+      {
+        "name": "A settings dialog has been created in the partials folder with a settings button in header",
+        "description": "Implemented using a themeService and a toggle button in the header.",
+        "app": [
+          {
+            "name": "Angular",
+            "status": "done"
+          },
+          {
+            "name": "Angular Material",
+            "status": "done"
+          },
+          {
+            "name": "PrimeNG",
+            "status": "done"
+          },
+          {
+            "name": "Analog",
+            "status": "",
+            "issueLink": "https://github.com/AnguHashBlog/analog/issues"
+          }
+        ]
+      },
+      {
+        "name": "Changing the blog URL can be done in the browser using local storage - might needs re-adjustments after SSR",
+        "description": "check with analog app.",
+        "app": [
+          {
+            "name": "Angular",
+            "status": "done"
+          },
+          {
+            "name": "Angular Material",
+            "status": "done"
+          },
+          {
+            "name": "PrimeNG",
+            "status": "done"
+          },
+          {
+            "name": "Analog",
+            "status": "",
+            "issueLink": "https://github.com/AnguHashBlog/analog/issues"
+          }
+        ]
+      },
+      {
+        "name": "Blog logo / author image or default image is queried and displayed in header",
+        "description": "Implemented using a themeService and a toggle button in the header.",
+        "app": [
+          {
+            "name": "Angular",
+            "status": "done"
+          },
+          {
+            "name": "Angular Material",
+            "status": "done"
+          },
+          {
+            "name": "PrimeNG",
+            "status": "done"
+          },
+          {
+            "name": "Analog",
+            "status": "",
+            "issueLink": "https://github.com/AnguHashBlog/analog/issues"
+          }
+        ]
+      },
+      {
+        "name": "Sitewide favicon or default image is queried and displayed in app.component",
+        "description": "Implemented using a themeService and a toggle button in the header.",
+        "app": [
+          {
+            "name": "Angular",
+            "status": "done"
+          },
+          {
+            "name": "Angular Material",
+            "status": "done"
+          },
+          {
+            "name": "PrimeNG",
+            "status": "done"
+          },
+          {
+            "name": "Analog",
+            "status": "",
+            "issueLink": "https://github.com/AnguHashBlog/analog/issues"
+          }
+        ]
+      },
+      {
+        "name": "Load more posts button has been implemented to appear conditionally in the posts & series component",
+        "description": "Implemented using a themeService and a toggle button in the header.",
+        "app": [
+          {
+            "name": "Angular",
+            "status": "done"
+          },
+          {
+            "name": "Angular Material",
+            "status": "",
+            "issueLink": "https://github.com/AnguHashBlog/angular-material/issues/4"
+          },
+          {
+            "name": "PrimeNG",
+            "status": "done"
+          },
+          {
+            "name": "Analog",
+            "status": "",
+            "issueLink": "https://github.com/AnguHashBlog/analog/issues"
+          }
+        ]
+      },
+      {
+        "name": "Layout for post details includes sidenav and minimal header with conditionally rendered elements",
+        "description": "Implemented using a themeService and a toggle button in the header.",
+        "app": [
+          {
+            "name": "Angular",
+            "status": "done"
+          },
+          {
+            "name": "Angular Material",
+            "status": "done"
+          },
+          {
+            "name": "PrimeNG",
+            "status": "done"
+          },
+          {
+            "name": "Analog",
+            "status": "",
+            "issueLink": "https://github.com/AnguHashBlog/analog/issues"
+          }
+        ]
+      },
+      {
+        "name": "Post details OnInit position is set to top using ViewportScroller",
+        "description": "Implemented using a themeService and a toggle button in the header.",
+        "app": [
+          {
+            "name": "Angular",
+            "status": "",
+            "issueLink": "https://github.com/AnguHashBlog/angular/issues/69"
+          },
+          {
+            "name": "Angular Material",
+            "status": "done"
+          },
+          {
+            "name": "PrimeNG",
+            "status": "done"
+          },
+          {
+            "name": "Analog",
+            "status": "",
+            "issueLink": "https://github.com/AnguHashBlog/analog/issues"
+          }
+        ]
+      },
+      {
+        "name": "A scroll to top button has been set for longer pages using ViewportScroller",
+        "description": "Implemented using a themeService and a toggle button in the header.",
+        "app": [
+          {
+            "name": "Angular",
+            "status": ""
+          },
+          {
+            "name": "Angular Material",
+            "status": "",
+            "issueLink": "https://github.com/AnguHashBlog/angular/pull/102"
+          },
+          {
+            "name": "PrimeNG",
+            "status": "done"
+          },
+          {
+            "name": "Analog",
+            "status": "",
+            "issueLink": "https://github.com/AnguHashBlog/analog/issues"
+          }
+        ]
+      },
+      {
+        "name": "Co-authors - if team blog and if any, have been queried and displayed in post details component",
+        "description": "Implemented using a themeService and a toggle button in the header.",
+        "app": [
+          {
+            "name": "Angular",
+            "status": "",
+            "issueLink": "https://github.com/AnguHashBlog/angular/issues/31"
+          },
+          {
+            "name": "Angular Material",
+            "status": "",
+            "issueLink": "https://github.com/AnguHashBlog/angular-material/issues/27"
+          },
+          {
+            "name": "PrimeNG",
+            "status": "done"
+          },
+          {
+            "name": "Analog",
+            "status": "",
+            "issueLink": "https://github.com/AnguHashBlog/analog/issues"
+          }
+        ]
+      },
+      {
+        "name": "Author & Co-authors if any, are made into clickable links that lead to the author's Hashnode page",
+        "description": "Implemented using a themeService and a toggle button in the header.",
+        "app": [
+          {
+            "name": "Angular",
+            "status": "",
+            "issueLink": "https://github.com/AnguHashBlog/angular/issues/99"
+          },
+          {
+            "name": "Angular Material",
+            "status": "",
+            "issueLink": "https://github.com/AnguHashBlog/angular-material/issues/60"
+          },
+          {
+            "name": "PrimeNG",
+            "status": "",
+            "issueLink": "https://github.com/AnguHashBlog/angular-primeng/issues/61"
+          },
+          {
+            "name": "Analog",
+            "status": "",
+            "issueLink": "https://github.com/AnguHashBlog/analog/issues"
+          }
+        ]
+      },
+      {
+        "name": "Social sharing dialog has been created in the partials component and has a button showing only in post details component",
+        "description": "Implemented using a themeService and a toggle button in the header.",
+        "app": [
+          {
+            "name": "Angular",
+            "status": "done"
+          },
+          {
+            "name": "Angular Material",
+            "status": ""
+          },
+          {
+            "name": "PrimeNG",
+            "status": ""
+          },
+          {
+            "name": "Analog",
+            "status": "",
+            "issueLink": "https://github.com/AnguHashBlog/analog/issues"
+          }
+        ]
+      },
+      {
+        "name": "Social sharing options - copying blog post link, twitter share, linkedin share, have been implemented in the share dialog",
+        "description": "Implemented using a themeService and a toggle button in the header.",
+        "app": [
+          {
+            "name": "Angular",
+            "status": "done"
+          },
+          {
+            "name": "Angular Material",
+            "status": ""
+          },
+          {
+            "name": "PrimeNG",
+            "status": ""
+          },
+          {
+            "name": "Analog",
+            "status": "",
+            "issueLink": "https://github.com/AnguHashBlog/analog/issues"
+          }
+        ]
+      },
+      {
+        "name": "Dynamic og meta tags for Social sharing have been implemented - deployed app is Server Side Rendered (SSR)",
+        "description": "Implemented using a themeService and a toggle button in the header.",
+        "app": [
+          {
+            "name": "Angular",
+            "status": ""
+          },
+          {
+            "name": "Angular Material",
+            "status": ""
+          },
+          {
+            "name": "PrimeNG",
+            "status": ""
+          },
+          {
+            "name": "Analog",
+            "status": "done"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Responsiveness",
+    "features": [
+      {
+        "name": "For mobile views adjust series in header to be in a sidenav, or display better since in header they may take too much space if many",
+        "description": "Implemented using a themeService and a toggle button in the header.",
+        "app": [
+          {
+            "name": "Angular",
+            "status": ""
+          },
+          {
+            "name": "Angular Material",
+            "status": ""
+          },
+          {
+            "name": "PrimeNG",
+            "status": ""
+          },
+          {
+            "name": "Analog",
+            "status": "",
+            "issueLink": "https://github.com/AnguHashBlog/analog/issues"
           }
         ]
       }

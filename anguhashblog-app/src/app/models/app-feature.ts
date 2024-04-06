@@ -11,4 +11,5 @@ export interface AppFeature {
 export interface App {
   name: string;
   status: string;
+  issueLink?: string;
 }

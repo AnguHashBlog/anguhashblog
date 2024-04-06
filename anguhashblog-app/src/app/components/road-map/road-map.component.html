@@ -1,7 +1,9 @@
 <div class="road-map">
+  <h1>Road Map</h1>
+  <p>Issue Picker</p>
   <mat-accordion class="example-headers-align" multi>
     @for (component of featuresByComponent; track component) {
-    <mat-expansion-panel>
+    <mat-expansion-panel expanded="true">
       <mat-expansion-panel-header>
         <mat-panel-title>
           <h2>{{component.name}}</h2>
@@ -20,11 +22,20 @@
         <tbody>
           @for (feature of component.features; track feature) {
           <tr>
-            <td>{{feature.name}}</td>
-            <td>{{ getAppStatus(feature, 'Angular') }}</td>
-            <td>{{ getAppStatus(feature, 'Angular Material') }}</td>
-            <td>{{ getAppStatus(feature, 'PrimeNG') }}</td>
-            <td>{{ getAppStatus(feature, 'Analog') }}</td>
+            <td>
+              <p>{{feature.name}}</p>
+            </td>
+            @for (app of feature.app; track app) {
+            @if (app.status) {
+            <td><mat-icon class="done">check_circle</mat-icon></td>
+            } @else {
+            <td>
+              <a href="{{app.issueLink}}" target="_blank" rel="noopener noreferrer">
+                <mat-icon class="missing">cancel</mat-icon>
+              </a>
+            </td>
+            }
+            }
           </tr>
           }
         </tbody>
