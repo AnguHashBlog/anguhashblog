@@ -6,7 +6,7 @@
     The community looks forward to your contributions. 🎉</p>
 
   <mat-accordion class="example-headers-align" multi>
-    <mat-expansion-panel>
+    <mat-expansion-panel #codeOfConduct [id]="'code-of-conduct'" [expanded]="currentPanelId === 'code-of-conduct'">
       <mat-expansion-panel-header>
         <mat-panel-title>
           <h2>Code of Conduct</h2>
@@ -17,7 +17,8 @@
           href="https://github.com/monacodelisa" target="_blank" rel="noopener noreferrer">monacodelisa</a>.</p>
     </mat-expansion-panel>
 
-    <mat-expansion-panel>
+    <mat-expansion-panel #questionOrProblem [id]="'question-or-problem'"
+      [expanded]="currentPanelId === 'question-or-problem'">
       <mat-expansion-panel-header>
         <mat-panel-title>
           <h2>Question or Problem?</h2>
@@ -27,24 +28,26 @@
         requests. Instead, we recommend using Discussions to ask support-related questions.</p>
     </mat-expansion-panel>
 
-    <mat-expansion-panel>
+    <mat-expansion-panel #featuresVsBugs [id]="'features-vs-bugs'" [expanded]="currentPanelId === 'features-vs-bugs'">
       <mat-expansion-panel-header>
         <mat-panel-title>
           <h2>Issues - Features vs Bugs</h2>
         </mat-panel-title>
       </mat-expansion-panel-header>
-      <p>Not all issues are bug fixes! Please understand the difference between a Feature and a Bug when it comes to issue creation.</p>
+      <p>Not all issues are bug fixes! Please understand the difference between a Feature and a Bug when it comes to
+        issue creation.</p>
       <ul>
         <li><span>FEATURE</span> - when you are implementing something new that has not been worked on before</li>
         <li><span>BUG</span> - when you are correcting something that has been worked on before </li>
       </ul>
       <p>Example:</p>
       <ul>
-        <li>Responsiveness - when you start working on responsiveness, if no one has done anything related to responsiveness throughout a view or the entire app, then you are working on a feature and not a bug.</li>
+        <li>Responsiveness - when you start working on responsiveness, if no one has done anything related to
+          responsiveness throughout a view or the entire app, then you are working on a feature and not a bug.</li>
       </ul>
     </mat-expansion-panel>
 
-    <mat-expansion-panel>
+    <mat-expansion-panel #submittingAnIssue [id]="'submitting-an-issue'" [expanded]="currentPanelId === 'submitting-an-issue'">
       <mat-expansion-panel-header>
         <mat-panel-title>
           <h2>Submitting an Issue</h2>
@@ -52,23 +55,35 @@
       </mat-expansion-panel-header>
       <p>Before opening an issue, please check the tracker to see if a similar issue has been raised. Existing
         discussions may provide useful insights or workarounds.</p>
-      <p>Evaluate whether the Issue is a <span>Feature</span> or a <span>Bug</span> and submit the correct issue type. You can file new issues by selecting from our new issue templates and filling out the issue template.</p>
+      <p>Evaluate whether the Issue is a <span>Feature</span> or a <span>Bug</span> and submit the correct issue type.
+        You can file new issues by selecting from our new issue templates and filling out the issue template.</p>
       <p>To expedite bug fixes, a minimal reproduction of the issue is required. This concise example helps in swiftly
         identifying and addressing the problem.</p>
       <p>Providing a minimal reproduction is crucial for saving time, increasing the chances of a quick resolution, and
         ensuring that focus is given to the correct issue.</p>
+      <hr />
+      <p>DO NOT erase the provided issue template! It is intended for you to use, not replace with random text.</p>
+      <hr />
+      <p>It is always a good practice to review existing issues and ensure your new issue matches the established
+        format. This helps maintain consistency and makes it easier for others to understand and collaborate on the
+        issue.</p>
     </mat-expansion-panel>
 
-    <mat-expansion-panel>
+    <mat-expansion-panel #needsTriageLabel [id]="'needs-triage-label'" [expanded]="currentPanelId === 'needs-triage-label'">
       <mat-expansion-panel-header>
         <mat-panel-title>
           <h2>'Needs Triage' issue label</h2>
         </mat-panel-title>
       </mat-expansion-panel-header>
-      <p> Every new issue is tagged with the "needs triage" label, signifying that it requires review and assessment by a core team member. This process ensures that issues are appropriately prioritized and assigned, fostering a collaborative environment where tasks are synchronized to prevent conflicts. While you focus on addressing an issue, it's important to recognize that others may be working on related tasks. Therefore, the "needs triage" label serves as a precautionary measure, indicating that the issue is not yet ready for immediate attention. The issue will be ready to work on, once the "needs triage" label is removed.</p>
+      <p> Every new issue is tagged with the "needs triage" label, signifying that it requires review and assessment by
+        a core team member. This process ensures that issues are appropriately prioritized and assigned, fostering a
+        collaborative environment where tasks are synchronized to prevent conflicts. While you focus on addressing an
+        issue, it's important to recognize that others may be working on related tasks. Therefore, the "needs triage"
+        label serves as a precautionary measure, indicating that the issue is not yet ready for immediate attention. The
+        issue will be ready to work on, once the "needs triage" label is removed.</p>
     </mat-expansion-panel>
 
-    <mat-expansion-panel>
+    <mat-expansion-panel #submittingPR [id]="'submitting-pr'" [expanded]="currentPanelId === 'submitting-pr'">
       <mat-expansion-panel-header>
         <mat-panel-title>
           <h2>Submitting a Pull Request (PR)</h2>
@@ -101,10 +116,15 @@
         </li>
         <li>In GitHub, send a pull request to <span>AnguHashBlog/angular:develop</span></li>
       </ol>
+      <hr />
+      <p>DO NOT erase the provided PR template! It is intended for you to use, not replace with random text.</p>
+      <hr />
+      <p>It is always a good practice to review already merged PRs and ensure your new PR matches the established
+        format. This helps maintain consistency and makes it easier for others to understand and collaborate.</p>
     </mat-expansion-panel>
 
 
-    <mat-expansion-panel>
+    <mat-expansion-panel #reviewingPR [id]="'reviewing-pr'" [expanded]="currentPanelId === 'reviewing-pr'">
       <mat-expansion-panel-header>
         <mat-panel-title>
           <h2>Reviewing a Pull Request</h2>
@@ -129,7 +149,7 @@
       </ol>
     </mat-expansion-panel>
 
-    <mat-expansion-panel>
+    <mat-expansion-panel #fileStructure [id]="'file-structure'" [expanded]="currentPanelId === 'file-structure'">
       <mat-expansion-panel-header>
         <mat-panel-title>
           <h2>File Structure</h2>
@@ -154,7 +174,7 @@
       <p>Custom directives to be placed in the directives folder</p>
     </mat-expansion-panel>
 
-    <mat-expansion-panel>
+    <mat-expansion-panel #codingStandards [id]="'coding-standards'" [expanded]="currentPanelId === 'coding-standards'">
       <mat-expansion-panel-header>
         <mat-panel-title>
           <h2>Coding Standards</h2>
@@ -185,7 +205,7 @@
         indentation changes - we all see its just indentation and that makes it even more unpleasant to deal with.</p>
     </mat-expansion-panel>
 
-    <mat-expansion-panel>
+    <mat-expansion-panel #commitMessages [id]="'commit-messages'" [expanded]="currentPanelId === 'commit-messages'">
       <mat-expansion-panel-header>
         <mat-panel-title>
           <h2>Commit Message Guidelines</h2>
@@ -212,13 +232,13 @@
       <pre><code>revert: revert changes from commit abc123</code></pre>
     </mat-expansion-panel>
 
-    <mat-expansion-panel>
+    <mat-expansion-panel #compliance [id]="'compliance'" [expanded]="currentPanelId === 'compliance'">
       <mat-expansion-panel-header>
         <mat-panel-title>
           <h2>Compliance</h2>
         </mat-panel-title>
       </mat-expansion-panel-header>
-      <p>Kindly ensure that all pull requests strictly adhere to our Coding Standards and Commit Message Guidelines.
+      <p>Kindly ensure that all Pull Requests strictly adhere to our Coding Standards and Commit Message Guidelines.
         Non-compliant PRs must be adjusted prior to acceptance.</p>
       <h3>Reviewer Accountability</h3>
       <p>Reviewers who approve PRs not in alignment with the Coding Standards and Commit Message Guidelines may face
