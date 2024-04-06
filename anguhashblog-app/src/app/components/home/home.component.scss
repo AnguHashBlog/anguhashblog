@@ -2,25 +2,29 @@
   width: 45vw;
   margin-bottom: 2rem;
 
-  .video-wrapper {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    margin-top: 1rem;
 
-    video {
-      width: 30vw;
-    }
-  }
 
   .content {
-    .heading {
+    .welcome {
+      display: flex;
       margin-bottom: 1rem;
 
-      h3 {
-        margin: 0;
-        font-size: 1.5rem;
+      .heading {
+        h2 {
+          margin: 1.5rem 0 0;
+        }
+      }
+
+      .video-wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin-top: 1rem;
+
+        video {
+          width: 20vw;
+        }
       }
     }
   }
@@ -53,6 +57,7 @@
 
       ul {
         margin: 0;
+
         li {
           font-size: 1.2rem;
           line-height: 1.5rem;

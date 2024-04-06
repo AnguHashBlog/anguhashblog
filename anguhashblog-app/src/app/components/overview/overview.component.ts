@@ -3,13 +3,13 @@ import { Component, inject, OnInit } from "@angular/core";
 import { RouterLink } from "@angular/router";
 
 @Component({
-	selector: "app-dev-guide",
+	selector: "app-overview",
 	standalone: true,
 	imports: [RouterLink],
-	templateUrl: "./dev-guide.component.html",
-	styleUrl: "./dev-guide.component.scss",
+	templateUrl: "./overview.component.html",
+	styleUrl: "./overview.component.scss",
 })
-export class DevGuideComponent implements OnInit {
+export class OverviewComponent implements OnInit {
 	private readonly scroller = inject(ViewportScroller);
 
 	ngOnInit(): void {

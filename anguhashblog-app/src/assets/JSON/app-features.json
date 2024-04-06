@@ -1,0 +1,56 @@
+[
+  {
+    "name": "Header",
+    "features": [
+      {
+        "name": "Dynamic Theme Switching ",
+        "description": "Implemented using a themeService and a toggle button in the header.",
+        "app": [
+          {
+            "name": "Angular",
+            "status": "done"
+          },
+          {
+            "name": "Angular Material",
+            "status": "done"
+          },
+          {
+            "name": "PrimeNG",
+            "status": "done"
+          },
+          {
+            "name": "Analog",
+            "status": "done"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Footer",
+    "features": [
+      {
+        "name": "Some other feature",
+        "description": "Implemented using a themeService and a toggle button in the header.",
+        "app": [
+          {
+            "name": "Angular",
+            "status": "done"
+          },
+          {
+            "name": "Angular Material",
+            "status": "done"
+          },
+          {
+            "name": "PrimeNG",
+            "status": "done"
+          },
+          {
+            "name": "Analog",
+            "status": "done"
+          }
+        ]
+      }
+    ]
+  }
+]

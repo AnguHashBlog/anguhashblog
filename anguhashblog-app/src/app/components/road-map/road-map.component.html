@@ -1,0 +1,35 @@
+<div class="road-map">
+  <mat-accordion class="example-headers-align" multi>
+    @for (component of featuresByComponent; track component) {
+    <mat-expansion-panel>
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          <h2>{{component.name}}</h2>
+        </mat-panel-title>
+      </mat-expansion-panel-header>
+      <table>
+        <thead>
+          <tr>
+            <th>Feature</th>
+            <th>Angular</th>
+            <th>Angular Material</th>
+            <th>Angular PrimaNG</th>
+            <th>Analog</th>
+          </tr>
+        </thead>
+        <tbody>
+          @for (feature of component.features; track feature) {
+          <tr>
+            <td>{{feature.name}}</td>
+            <td>{{ getAppStatus(feature, 'Angular') }}</td>
+            <td>{{ getAppStatus(feature, 'Angular Material') }}</td>
+            <td>{{ getAppStatus(feature, 'PrimeNG') }}</td>
+            <td>{{ getAppStatus(feature, 'Analog') }}</td>
+          </tr>
+          }
+        </tbody>
+      </table>
+    </mat-expansion-panel>
+    }
+  </mat-accordion>
+</div>

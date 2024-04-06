@@ -1,23 +1,34 @@
 <div class="home">
-  <div class="video-wrapper">
+  <!-- <div class="video-wrapper">
     @if (themeService.themeSignal() === 'dark') {
-      <video #myVideo src="../../../assets/animation/anguhashblog-animation.mp4" autoplay loop muted
-        [volume]="videoVolume"></video>
+    <video #myVideo src="../../../assets/animation/anguhashblog-animation.mp4" autoplay loop muted
+      [volume]="videoVolume"></video>
     } @else {
-      <video #myVideo src="../../../assets/animation/anguhashblog-animation-light.mp4" autoplay loop muted
-        [volume]="videoVolume"></video>
+    <video #myVideo src="../../../assets/animation/anguhashblog-animation-light.mp4" autoplay loop muted
+      [volume]="videoVolume"></video>
     }
-  </div>
+  </div> -->
   <div class="content">
-    <h2>Overview</h2>
-    <div class="heading">
-      <h3>The AnguHashBlog Project</h3>
+    <div class="welcome">
+      <div class="heading">
+      <h2>The AnguHashBlog Project</h2>
       <small>formarly known as <i>Angular Headless Hashnode</i></small>
+      <p>Seamlessly connects your Angular or Analog application to the Hashnode GraphQL
+        API, providing a template integration with a headless Hashnode setup.</p>
+      <p>In other words - this project is very much like the starter kit that Hashnode provides, except that this
+        project
+        uses Angular or Analog and relevant UI libraries.</p>
+      </div>
+      <div class="video-wrapper">
+        @if (themeService.themeSignal() === 'dark') {
+        <video #myVideo src="../../../assets/animation/anguhashblog-animation.mp4" autoplay loop muted
+          [volume]="videoVolume"></video>
+        } @else {
+        <video #myVideo src="../../../assets/animation/anguhashblog-animation-light.mp4" autoplay loop muted
+          [volume]="videoVolume"></video>
+        }
+      </div>
     </div>
-    <p>Seamlessly connects your Angular or Analog application to the Hashnode GraphQL
-      API, providing a template integration with a headless Hashnode setup.</p>
-    <p>In other words - this project is very much like the starter kit that Hashnode provides, except that this project
-      uses Angular / Analog.</p>
     <h2>Project Features</h2>
     <ul>
       @for (feature of features; track feature) {
@@ -27,7 +38,8 @@
     <h2>Setup & Tech</h2>
     <ul>
       @for (techItem of tech; track techItem) {
-      <li><a href="{{techItem.link}}" target="_blank" rel="noopener noreferrer">{{techItem.linkName}}</a> {{techItem.name}}
+      <li><a href="{{techItem.link}}" target="_blank" rel="noopener noreferrer">{{techItem.linkName}}</a>
+        {{techItem.name}}
       </li>
       }
     </ul>
