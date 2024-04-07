@@ -763,6 +763,28 @@
     ]
   },
   {
+    "name": "Table of contents - if enabled, it is displayed in the post details component with expanding details for nested bullrt points and is clickable to scroll to the relevant section of the post",
+    "description": "",
+    "app": [
+      {
+        "name": "Angular",
+        "status": ""
+      },
+      {
+        "name": "Angular Material",
+        "status": ""
+      },
+      {
+        "name": "PrimeNG",
+        "status": ""
+      },
+      {
+        "name": "Analog",
+        "status": ""
+      }
+    ]
+  },
+  {
     "name": "Co-authors - if team blog and if any, have been queried and displayed in post details component",
     "description": "Implemented using a themeService and a toggle button in the header.",
     "app": [

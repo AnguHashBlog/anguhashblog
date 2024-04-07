@@ -51,9 +51,9 @@ export class AppComponent implements OnInit, OnDestroy {
 	navItems: NavItem[] = [
 		{ name: "Home", route: "home", icon: "home" },
 		{ name: "Demos", route: "demos", icon: "widgets" },
-		{ name: "Overview", route: "development-overview", icon: "view_carousel" },
-		{ name: "Issue Picker", route: "issue-picker", icon: "search" },
+		{ name: "Overview", route: "overview", icon: "view_carousel" },
 		{ name: "Contributing", route: "contributing", icon: "code" },
+		{ name: "Issue Picker", route: "issue-picker", icon: "search" },
 		{ name: "Code Of Conduct", route: "code-of-conduct", icon: "code" },
 		// { name: "How To Use", route: "use", icon: "note" },
 		// { name: "Contact", route: "contact", icon: "email" },

@@ -2,6 +2,7 @@ import { HttpClient } from "@angular/common/http";
 import { Component, inject, OnInit } from "@angular/core";
 import { AppFeature } from "../../models/app-feature";
 import { FormBuilder, FormGroup, ReactiveFormsModule } from "@angular/forms";
+import { ViewportScroller } from "@angular/common";
 
 import { MatCardModule } from "@angular/material/card";
 import { MatFormFieldModule } from "@angular/material/form-field";
@@ -28,6 +29,7 @@ import { MatIconModule } from "@angular/material/icon";
 export class IssuePickerComponent implements OnInit {
 	appFeatures: AppFeature[] = [];
 	filteredAppFeatures: AppFeature[] = [];
+  private readonly scroller = inject(ViewportScroller);
 	private http = inject(HttpClient);
 
 	filterForm: FormGroup;
@@ -39,12 +41,13 @@ export class IssuePickerComponent implements OnInit {
 	}
 
 	ngOnInit(): void {
+    this.scroller.scrollToPosition([0, 0]);
 		this.http
 			.get<AppFeature[]>("./assets/JSON/app-features.json")
 			.subscribe((data) => {
 				this.appFeatures = data;
+				this.filteredAppFeatures = data;
 			});
-		this.filteredAppFeatures = this.appFeatures;
 	}
 
 	filterResults() {
