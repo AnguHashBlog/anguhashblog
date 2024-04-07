@@ -1,7 +1,3 @@
-export interface FeatureByComponent {
-  name: string;
-  features: AppFeature[];
-}
 export interface AppFeature {
   name: string;
   description: string;

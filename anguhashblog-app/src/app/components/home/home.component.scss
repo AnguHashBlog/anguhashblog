@@ -1,5 +1,5 @@
 .home {
-  width: 45vw;
+  width: 60vw;
   margin-bottom: 2rem;
 
 
@@ -8,6 +8,7 @@
     .welcome {
       display: flex;
       margin-bottom: 1rem;
+      gap: 1.5rem;
 
       .heading {
         h2 {
@@ -23,7 +24,20 @@
         margin-top: 1rem;
 
         video {
-          width: 20vw;
+          width: 25vw;
+        }
+      }
+    }
+
+    .lists {
+      display: flex;
+      gap: 2rem;
+
+      .list {
+        width: 50%;
+
+        ul {
+          margin: 0;
         }
       }
     }
@@ -37,31 +51,56 @@
     align-items: center;
     justify-content: center;
 
-    .video-wrapper {
-      video {
-        width: 90vw;
-      }
-    }
+
 
     .content {
       width: 90vw;
 
-      h2 {
-        font-size: 1.8rem;
+      .welcome {
+        flex-direction: column-reverse;
+        margin: 0;
+
+        .heading {
+
+          h2 {
+            font-size: 1.5rem;
+            line-height: 2rem;
+            margin: 0 0 1rem;
+          }
+        }
+
+        .video-wrapper {
+          video {
+            width: 90vw;
+          }
+        }
+      }
+
+      .lists {
+        flex-direction: column;
+
+        h2 {
+          font-size: 1.5rem;
+          line-height: 2rem;
+        }
+
+        .list {
+          width: 100%;
+
+          ul {
+            margin: 0;
+
+            li {
+              font-size: 1.1rem;
+              line-height: 1.5rem;
+            }
+          }
+        }
       }
 
       p {
-        font-size: 1.2rem;
+        font-size: 1.1rem;
         line-height: 1.5rem;
-      }
-
-      ul {
-        margin: 0;
-
-        li {
-          font-size: 1.2rem;
-          line-height: 1.5rem;
-        }
       }
     }
   }

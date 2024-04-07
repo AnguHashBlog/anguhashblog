@@ -10,6 +10,62 @@
     }
   }
 
+  mat-card {
+    width: 65vw;
+    padding: 1rem;
+
+    form {
+      mat-form-field {
+        width: 100%;
+      }
+
+      button {
+        margin: 0 0.5rem;
+      }
+    }
+
+    table {
+      border-collapse: collapse;
+      border: 1px solid gray;
+
+      th {
+        font-size: 1rem;
+        font-weight: 500;
+        padding: 0.5rem 1rem;
+        border: 1px solid gray;
+      }
+
+      td {
+        text-align: center;
+        min-width: 5vw;
+        padding: 0.5rem 1rem;
+        border: 1px solid gray;
+
+        &:first-child {
+          text-align: left;
+          min-width: 20vw;
+
+          p {
+            font-size: 0.95rem;
+            margin: 0;
+          }
+        }
+
+        mat-icon {
+          font-size: 1.2rem;
+
+          &.done {
+            color: green;
+          }
+
+          &.missing {
+            color: red;
+          }
+        }
+      }
+    }
+  }
+
   mat-accordion {
 
     mat-expansion-panel {
@@ -21,46 +77,7 @@
         }
       }
 
-      table {
-        border-collapse: collapse;
-        border: 1px solid gray;
 
-        th {
-          font-size: 1rem;
-          font-weight: 500;
-          padding: 0.5rem 1rem;
-          border: 1px solid gray;
-        }
-
-        td {
-          text-align: center;
-          min-width: 5vw;
-          padding: 0.5rem 1rem;
-          border: 1px solid gray;
-
-          &:first-child {
-            text-align: left;
-            min-width: 20vw;
-
-            p {
-              font-size: 0.95rem;
-              margin: 0;
-            }
-          }
-
-          mat-icon {
-            font-size: 1.2rem;
-
-            &.done {
-              color: green;
-            }
-
-            &.missing {
-              color: red;
-            }
-          }
-        }
-      }
     }
   }
 }

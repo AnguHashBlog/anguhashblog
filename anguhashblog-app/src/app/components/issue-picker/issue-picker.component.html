@@ -2,13 +2,7 @@
   <div class="heading">
     <h1>Issue Picker</h1>
     <p>The AnguHashBlog's Issue Picker serves as a vital tool for collaborators within our open-source community,
-      providing a centralized overview of feature implementation across different application versions. Serving as both
-      a roadmap and a collaborative tool, it enables collaborators to track the progress of features and coordinate
-      development efforts efficiently. Use this page to:</p>
-    <ul>
-      <li>Easily identify and navigate to features that have not yet been implemented.</li>
-      <li>Identify which app version has already implemented a particular feature and use the same implementation.</li>
-    </ul>
+      providing a centralized overview of feature implementation across different application versions.</p>
     <p>As explained in multiple places, when an issue exists in one app version, the same implementation should be
       applied across all app versions until a better implementation is accepted for global use across all apps.</p>
     <p>From here collaborators can easily navigate to an existing implementation's PR, after choosing an issue to work
@@ -20,50 +14,57 @@
       manually updated and can occasionally be outdated.</h2>
     <h2>Always check the most current code since sometimes adjustments were made after the PR was submitted.</h2>
   </div>
-  <mat-accordion class="example-headers-align" multi>
-    @for (component of featuresByComponent; track component) {
-    <mat-expansion-panel expanded="true">
-      <mat-expansion-panel-header>
-        <mat-panel-title>
-          <h2>{{component.name}}</h2>
-        </mat-panel-title>
-      </mat-expansion-panel-header>
-      <table>
-        <thead>
-          <tr>
-            <th>Feature</th>
-            <th>Angular</th>
-            <th>Angular Material</th>
-            <th>Angular PrimeNG</th>
-            <th>Analog</th>
-          </tr>
-        </thead>
-        <tbody>
-          @for (feature of component.features; track feature) {
-          <tr>
-            <td>
-              <p>{{feature.name}}</p>
-            </td>
-            @for (app of feature.app; track app) {
-            @if (app.status) {
-            <td>
-              <a href="{{app.issueLink}}" target="_blank" rel="noopener noreferrer">
-                <mat-icon class="done">check_circle</mat-icon>
-              </a>
-            </td>
-            } @else {
-            <td>
-              <a href="{{app.issueLink}}" target="_blank" rel="noopener noreferrer">
-                <mat-icon class="missing">cancel</mat-icon>
-              </a>
-            </td>
-            }
-            }
-          </tr>
-          }
-        </tbody>
-      </table>
-    </mat-expansion-panel>
-    }
-  </mat-accordion>
+
+<mat-card>
+  <form [formGroup]="filterForm">
+    <mat-form-field>
+      <input matInput formControlName="filter" type="text" placeholder="Search...">
+
+      <button mat-mini-fab matSuffix matTooltip="Filter" matTooltipPosition="above" (click)="filterResults()">
+        <mat-icon >search</mat-icon>
+      </button>
+
+      <button mat-mini-fab matSuffix matTooltip="Clear Filter" matTooltipPosition="above" (click)="clearFilter()">
+        <mat-icon>refresh</mat-icon>
+      </button>
+    </mat-form-field>
+
+  </form>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Feature</th>
+        <th>Angular</th>
+        <th>Angular Material</th>
+        <th>Angular PrimeNG</th>
+        <th>Analog</th>
+      </tr>
+    </thead>
+    <tbody>
+      @for (feature of filteredAppFeatures; track feature) {
+      <tr>
+        <td>
+          <p>{{feature.name}}</p>
+        </td>
+        @for (app of feature.app; track app) {
+        @if (app.status) {
+        <td>
+          <a href="{{app.issueLink}}" target="_blank" rel="noopener noreferrer">
+            <mat-icon class="done">check_circle</mat-icon>
+          </a>
+        </td>
+        } @else {
+        <td>
+          <a href="{{app.issueLink}}" target="_blank" rel="noopener noreferrer">
+            <mat-icon class="missing">cancel</mat-icon>
+          </a>
+        </td>
+        }
+        }
+      </tr>
+      }
+    </tbody>
+  </table>
+</mat-card>
 </div>

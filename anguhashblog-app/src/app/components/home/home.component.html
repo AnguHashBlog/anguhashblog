@@ -11,13 +11,13 @@
   <div class="content">
     <div class="welcome">
       <div class="heading">
-      <h2>The AnguHashBlog Project</h2>
-      <small>formarly known as <i>Angular Headless Hashnode</i></small>
-      <p>Seamlessly connects your Angular or Analog application to the Hashnode GraphQL
-        API, providing a template integration with a headless Hashnode setup.</p>
-      <p>In other words - this project is very much like the starter kit that Hashnode provides, except that this
-        project
-        uses Angular or Analog and relevant UI libraries.</p>
+        <h2>The AnguHashBlog Project</h2>
+        <small>formarly known as <i>Angular Headless Hashnode</i></small>
+        <p>Seamlessly connects your Angular or Analog application to the Hashnode GraphQL
+          API, providing a template integration with a headless Hashnode setup.</p>
+        <p>In other words - this project is very much like the starter kit that Hashnode provides, except that this
+          project
+          uses Angular or Analog and relevant UI libraries.</p>
       </div>
       <div class="video-wrapper">
         @if (themeService.themeSignal() === 'dark') {
@@ -29,19 +29,25 @@
         }
       </div>
     </div>
-    <h2>Project Features</h2>
-    <ul>
-      @for (feature of features; track feature) {
-      <li>{{feature.name}}</li>
-      }
-    </ul>
-    <h2>Setup & Tech</h2>
-    <ul>
-      @for (techItem of tech; track techItem) {
-      <li><a href="{{techItem.link}}" target="_blank" rel="noopener noreferrer">{{techItem.linkName}}</a>
-        {{techItem.name}}
-      </li>
-      }
-    </ul>
+    <div class="lists">
+      <div class="list">
+        <h2>Project Features</h2>
+        <ul>
+          @for (feature of features; track feature) {
+          <li>{{feature.name}}</li>
+          }
+        </ul>
+      </div>
+      <div class="list">
+        <h2>Setup & Tech</h2>
+        <ul>
+          @for (techItem of tech; track techItem) {
+          <li><a href="{{techItem.link}}" target="_blank" rel="noopener noreferrer">{{techItem.linkName}}</a>
+            {{techItem.name}}
+          </li>
+          }
+        </ul>
+      </div>
+    </div>
   </div>
 </div>
