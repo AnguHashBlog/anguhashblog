@@ -8,19 +8,23 @@
         "app": [
           {
             "name": "Angular",
-            "status": "done"
+            "status": "done",
+            "issueLink": "https://github.com/AnguHashBlog/angular"
           },
           {
             "name": "Angular Material",
-            "status": "done"
+            "status": "done",
+            "issueLink": "https://github.com/AnguHashBlog/angular-material"
           },
           {
             "name": "PrimeNG",
-            "status": "done"
+            "status": "done",
+            "issueLink": "https://github.com/AnguHashBlog/angular-primeng"
           },
           {
             "name": "Analog",
-            "status": "done"
+            "status": "done",
+            "issueLink": "https://github.com/AnguHashBlog/analog"
           }
         ]
       },
@@ -30,19 +34,23 @@
         "app": [
           {
             "name": "Angular",
-            "status": "done"
+            "status": "done",
+            "issueLink": "https://github.com/AnguHashBlog/angular"
           },
           {
             "name": "Angular Material",
-            "status": "done"
+            "status": "done",
+            "issueLink": "https://github.com/AnguHashBlog/angular-material"
           },
           {
             "name": "PrimeNG",
-            "status": "done"
+            "status": "done",
+            "issueLink": "https://github.com/AnguHashBlog/angular-primeng"
           },
           {
             "name": "Analog",
-            "status": "done"
+            "status": "done",
+            "issueLink": "https://github.com/AnguHashBlog/analog"
           }
         ]
       },
@@ -52,7 +60,8 @@
         "app": [
           {
             "name": "Angular",
-            "status": "done"
+            "status": "done",
+            "issueLink": "https://github.com/AnguHashBlog/angular/blob/develop/angular-app/src/app/services/theme.service.ts"
           },
           {
             "name": "Angular Material",
@@ -74,7 +83,8 @@
         "app": [
           {
             "name": "Angular",
-            "status": "done"
+            "status": "done",
+            "issueLink": "https://github.com/AnguHashBlog/angular/blob/develop/angular-app/src/app/app.config.ts"
           },
           {
             "name": "Angular Material",
@@ -96,7 +106,8 @@
         "app": [
           {
             "name": "Angular",
-            "status": "done"
+            "status": "done",
+            "issueLink": "https://github.com/AnguHashBlog/angular/blob/develop/angular-app/src/app/services/blog.service.ts"
           },
           {
             "name": "Angular Material",
@@ -118,7 +129,8 @@
         "app": [
           {
             "name": "Angular",
-            "status": "done"
+            "status": "done",
+            "issueLink": "https://github.com/AnguHashBlog/angular/tree/develop/angular-app/src/app/components/posts"
           },
           {
             "name": "Angular Material",
@@ -140,7 +152,8 @@
         "app": [
           {
             "name": "Angular",
-            "status": "done"
+            "status": "done",
+            "issueLink": "https://github.com/AnguHashBlog/angular/tree/develop/angular-app/src/app/components/post-details"
           },
           {
             "name": "Angular Material",
@@ -162,7 +175,8 @@
         "app": [
           {
             "name": "Angular",
-            "status": "done"
+            "status": "done",
+            "issueLink": "https://github.com/AnguHashBlog/angular/blob/develop/angular-app/src/app/components/post-details/post-details.component.scss"
           },
           {
             "name": "Angular Material",
@@ -184,7 +198,8 @@
         "app": [
           {
             "name": "Angular",
-            "status": "done"
+            "status": "done",
+            "issueLink": "https://github.com/AnguHashBlog/angular/blob/4adbea34e15a3873d35a8c3c3ac6196904508b55/angular-app/src/app/components/header/header.component.html#L4"
           },
           {
             "name": "Angular Material",
@@ -201,12 +216,13 @@
         ]
       },
       {
-        "name": "Social media links are queried and displayed in header in header",
+        "name": "Social media links are queried and displayed in header",
         "description": "Implemented using a themeService and a toggle button in the header.",
         "app": [
           {
             "name": "Angular",
-            "status": "done"
+            "status": "done",
+            "issueLink": "https://github.com/AnguHashBlog/angular/blob/4adbea34e15a3873d35a8c3c3ac6196904508b55/angular-app/src/app/components/header/header.component.html#L56"
           },
           {
             "name": "Angular Material",
@@ -228,7 +244,8 @@
         "app": [
           {
             "name": "Angular",
-            "status": "done"
+            "status": "done",
+            "issueLink": "https://github.com/AnguHashBlog/angular/tree/develop/angular-app/src/app/partials/svg-icon"
           },
           {
             "name": "Angular Material",
@@ -250,7 +267,8 @@
         "app": [
           {
             "name": "Angular",
-            "status": "done"
+            "status": "done",
+            "issueLink": "https://github.com/AnguHashBlog/angular/pull/21/files"
           },
           {
             "name": "Angular Material",
@@ -273,7 +291,8 @@
         "app": [
           {
             "name": "Angular",
-            "status": "done"
+            "status": "done",
+            "issueLink": "https://github.com/AnguHashBlog/angular/pull/19/files"
           },
           {
             "name": "Angular Material",
@@ -296,7 +315,8 @@
         "app": [
           {
             "name": "Angular",
-            "status": "done"
+            "status": "done",
+            "issueLink": "https://github.com/AnguHashBlog/angular/tree/develop/angular-app/src/app/models"
           },
           {
             "name": "Angular Material",
@@ -318,7 +338,8 @@
         "app": [
           {
             "name": "Angular",
-            "status": "done"
+            "status": "done",
+            "issueLink": "https://github.com/AnguHashBlog/angular/blob/develop/angular-app/src/app/graphql.operations.ts"
           },
           {
             "name": "Angular Material",
@@ -340,7 +361,8 @@
         "app": [
           {
             "name": "Angular",
-            "status": "done"
+            "status": "done",
+            "issueLink": "https://github.com/AnguHashBlog/angular/blob/4adbea34e15a3873d35a8c3c3ac6196904508b55/angular-app/src/app/components/header/header.component.html#L75"
           },
           {
             "name": "Angular Material",
@@ -362,7 +384,8 @@
         "app": [
           {
             "name": "Angular",
-            "status": "done"
+            "status": "done",
+            "issueLink": "https://github.com/AnguHashBlog/angular/tree/develop/angular-app/src/app/components/series"
           },
           {
             "name": "Angular Material",
@@ -385,7 +408,8 @@
         "app": [
           {
             "name": "Angular",
-            "status": "done"
+            "status": "done",
+            "issueLink": "https://github.com/AnguHashBlog/angular/blob/4adbea34e15a3873d35a8c3c3ac6196904508b55/angular-app/src/app/components/series/series.component.html#L4"
           },
           {
             "name": "Angular Material",
@@ -408,7 +432,8 @@
         "app": [
           {
             "name": "Angular",
-            "status": "done"
+            "status": "done",
+            "issueLink": "https://github.com/AnguHashBlog/angular/blob/4adbea34e15a3873d35a8c3c3ac6196904508b55/angular-app/src/styles.scss#L158"
           },
           {
             "name": "Angular Material",
@@ -431,7 +456,8 @@
         "app": [
           {
             "name": "Angular",
-            "status": "done"
+            "status": "done",
+            "issueLink": "https://github.com/AnguHashBlog/angular/blob/develop/angular-app/src/app/directives/clipboard-copy-button.directive.ts"
           },
           {
             "name": "Angular Material",
@@ -452,11 +478,12 @@
       },
       {
         "name": "YouTube Videos in post details are styled and displayed correctly using a custom directive",
-        "description": "Implemented using a themeService and a toggle button in the header.",
+        "description": "",
         "app": [
           {
             "name": "Angular",
-            "status": "done"
+            "status": "done",
+            "issueLink": "https://github.com/AnguHashBlog/angular/pull/60/files"
           },
           {
             "name": "Angular Material",
@@ -479,7 +506,8 @@
         "app": [
           {
             "name": "Angular",
-            "status": "done"
+            "status": "done",
+            "issueLink": "https://github.com/AnguHashBlog/angular/tree/develop/angular-app/src/app/partials/follow-dialog"
           },
           {
             "name": "Angular Material",
@@ -525,7 +553,8 @@
         "app": [
           {
             "name": "Angular",
-            "status": "done"
+            "status": "done",
+            "issueLink": "https://github.com/AnguHashBlog/angular/pull/35/files"
           },
           {
             "name": "Angular Material",
@@ -548,7 +577,8 @@
         "app": [
           {
             "name": "Angular",
-            "status": "done"
+            "status": "done",
+            "issueLink": "https://github.com/AnguHashBlog/angular/pull/35/files"
           },
           {
             "name": "Angular Material",
@@ -571,7 +601,8 @@
         "app": [
           {
             "name": "Angular",
-            "status": "done"
+            "status": "done",
+            "issueLink": "https://github.com/AnguHashBlog/angular/blob/4adbea34e15a3873d35a8c3c3ac6196904508b55/angular-app/src/app/components/header/header.component.ts#L63"
           },
           {
             "name": "Angular Material",
@@ -594,7 +625,8 @@
         "app": [
           {
             "name": "Angular",
-            "status": "done"
+            "status": "done",
+            "issueLink": "https://github.com/AnguHashBlog/angular/blob/4adbea34e15a3873d35a8c3c3ac6196904508b55/angular-app/src/app/app.component.ts#L38"
           },
           {
             "name": "Angular Material",
@@ -612,12 +644,38 @@
         ]
       },
       {
-        "name": "Load more posts button has been implemented to appear conditionally in the posts & series component",
+        "name": "Load more posts button has been implemented to appear conditionally in the posts component",
         "description": "Implemented using a themeService and a toggle button in the header.",
         "app": [
           {
             "name": "Angular",
+            "status": "done",
+            "issueLink": "https://github.com/AnguHashBlog/angular/pull/39/files"
+          },
+          {
+            "name": "Angular Material",
+            "status": "",
+            "issueLink": "https://github.com/AnguHashBlog/angular-material/issues/4"
+          },
+          {
+            "name": "PrimeNG",
             "status": "done"
+          },
+          {
+            "name": "Analog",
+            "status": "",
+            "issueLink": "https://github.com/AnguHashBlog/analog/issues"
+          }
+        ]
+      },
+      {
+        "name": "Load more posts button has been implemented to appear conditionally in the series component",
+        "description": "Implemented using a themeService and a toggle button in the header.",
+        "app": [
+          {
+            "name": "Angular",
+            "status": "done",
+            "issueLink": "https://github.com/AnguHashBlog/angular/pull/42/files"
           },
           {
             "name": "Angular Material",
@@ -641,7 +699,8 @@
         "app": [
           {
             "name": "Angular",
-            "status": "done"
+            "status": "done",
+            "issueLink": "https://github.com/AnguHashBlog/angular/pull/70/files"
           },
           {
             "name": "Angular Material",

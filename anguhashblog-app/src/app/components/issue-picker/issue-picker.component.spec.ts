@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { RoadMapComponent } from './road-map.component';
+import { IssuePickerComponent } from './issue-picker.component';
 
-describe('RoadMapComponent', () => {
-  let component: RoadMapComponent;
-  let fixture: ComponentFixture<RoadMapComponent>;
+describe('IssuePickerComponent', () => {
+  let component: IssuePickerComponent;
+  let fixture: ComponentFixture<IssuePickerComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [RoadMapComponent]
+      imports: [IssuePickerComponent]
     })
     .compileComponents();
-    
-    fixture = TestBed.createComponent(RoadMapComponent);
+
+    fixture = TestBed.createComponent(IssuePickerComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

@@ -5,13 +5,13 @@ import { FeatureByComponent } from '../../models/app-feature';
 import {MatIconModule} from '@angular/material/icon';
 
 @Component({
-  selector: 'app-road-map',
+  selector: 'app-issue-picker',
   standalone: true,
   imports: [MatExpansionModule, MatIconModule],
-  templateUrl: './road-map.component.html',
-  styleUrl: './road-map.component.scss'
+  templateUrl: './issue-picker.component.html',
+  styleUrl: './issue-picker.component.scss'
 })
-export class RoadMapComponent implements OnInit {
+export class IssuePickerComponent implements OnInit {
   featuresByComponent: FeatureByComponent[] = [];
   private http = inject(HttpClient);
 
