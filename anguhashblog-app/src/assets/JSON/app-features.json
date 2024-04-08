@@ -62,7 +62,8 @@
       },
       {
         "name": "Angular Material",
-        "status": "done"
+        "status": "done",
+        "issueLink": "https://github.com/AnguHashBlog/angular-material/blob/develop/angular-material-app/src/app/services/theme.service.ts"
       },
       {
         "name": "PrimeNG",
@@ -75,7 +76,7 @@
     ]
   },
   {
-    "name": "Apollo Angular implemented for GraphQL queries",
+    "name": "Apollo Angular implemented for GraphQL queries in a standalone app",
     "description": "Implemented using a themeService and a toggle button in the header.",
     "app": [
       {
@@ -85,7 +86,8 @@
       },
       {
         "name": "Angular Material",
-        "status": "done"
+        "status": "done",
+        "issueLink": "https://github.com/AnguHashBlog/angular-material/blob/develop/angular-material-app/src/app/app.config.ts"
       },
       {
         "name": "PrimeNG",
@@ -108,7 +110,8 @@
       },
       {
         "name": "Angular Material",
-        "status": "done"
+        "status": "done",
+        "issueLink": "https://github.com/AnguHashBlog/angular-material/blob/develop/angular-material-app/src/app/services/blog.service.ts"
       },
       {
         "name": "PrimeNG",
@@ -131,7 +134,8 @@
       },
       {
         "name": "Angular Material",
-        "status": "done"
+        "status": "done",
+        "issueLink": "https://github.com/AnguHashBlog/angular-material/tree/develop/angular-material-app/src/app/components/posts"
       },
       {
         "name": "PrimeNG",
@@ -154,7 +158,8 @@
       },
       {
         "name": "Angular Material",
-        "status": "done"
+        "status": "done",
+        "issueLink": "https://github.com/AnguHashBlog/angular-material/tree/develop/angular-material-app/src/app/components/post-details"
       },
       {
         "name": "PrimeNG",
@@ -177,7 +182,8 @@
       },
       {
         "name": "Angular Material",
-        "status": "done"
+        "status": "done",
+        "issueLink": "https://github.com/AnguHashBlog/angular-material/blob/develop/angular-material-app/src/app/components/post-details/post-details.component.scss"
       },
       {
         "name": "PrimeNG",
@@ -200,7 +206,8 @@
       },
       {
         "name": "Angular Material",
-        "status": "done"
+        "status": "done",
+        "issueLink": "https://github.com/AnguHashBlog/angular-material/blob/244ba99d5db7fb2a0b3e27ae1497b65ea4d2986c/angular-material-app/src/app/components/header/header.component.html#L4"
       },
       {
         "name": "PrimeNG",
@@ -223,7 +230,8 @@
       },
       {
         "name": "Angular Material",
-        "status": "done"
+        "status": "done",
+        "issueLink": "https://github.com/AnguHashBlog/angular-material/blob/1f4a1829e0f1a38799b240c2fdfb7bf812018053/angular-material-app/src/app/components/header/header.component.html#L20"
       },
       {
         "name": "PrimeNG",
@@ -246,7 +254,8 @@
       },
       {
         "name": "Angular Material",
-        "status": "done"
+        "status": "done",
+        "issueLink": "https://github.com/AnguHashBlog/angular-material/blob/1f4a1829e0f1a38799b240c2fdfb7bf812018053/angular-material-app/src/app/partials/blog-social-icons/blog-social-icons.component.ts#L19"
       },
       {
         "name": "PrimeNG",
@@ -269,7 +278,8 @@
       },
       {
         "name": "Angular Material",
-        "status": "done"
+        "status": "done",
+        "issueLink": "https://github.com/AnguHashBlog/angular-material/blob/1f4a1829e0f1a38799b240c2fdfb7bf812018053/angular-material-app/src/app/partials/blog-social-icons/blog-social-icons.component.ts#L20"
       },
       {
         "name": "PrimeNG",
@@ -288,12 +298,13 @@
     "app": [
       {
         "name": "Angular",
-        "status": "done",
-        "issueLink": "https://github.com/AnguHashBlog/angular/pull/19/files"
+        "status": "",
+        "issueLink": "https://github.com/AnguHashBlog/angular/blob/6d9d8178f82ca4d38f441ab928fd9cce0d949d23/angular-app/src/app/app.component.ts#L54"
       },
       {
         "name": "Angular Material",
-        "status": "done"
+        "status": "done",
+        "issueLink": "https://github.com/AnguHashBlog/angular-material/blob/1f4a1829e0f1a38799b240c2fdfb7bf812018053/angular-material-app/src/index.html#L8"
       },
       {
         "name": "PrimeNG",
@@ -317,7 +328,8 @@
       },
       {
         "name": "Angular Material",
-        "status": "done"
+        "status": "done",
+        "issueLink": "https://github.com/AnguHashBlog/angular-material/tree/develop/angular-material-app/src/app/models"
       },
       {
         "name": "PrimeNG",
@@ -340,7 +352,8 @@
       },
       {
         "name": "Angular Material",
-        "status": "done"
+        "status": "done",
+        "issueLink": "https://github.com/AnguHashBlog/angular-material/blob/develop/angular-material-app/src/app/graphql.operations.ts"
       },
       {
         "name": "PrimeNG",
@@ -363,7 +376,8 @@
       },
       {
         "name": "Angular Material",
-        "status": "done"
+        "status": "done",
+        "issueLink": "https://github.com/AnguHashBlog/angular-material/blob/1f4a1829e0f1a38799b240c2fdfb7bf812018053/angular-material-app/src/app/components/header/header.component.html#L19"
       },
       {
         "name": "PrimeNG",
@@ -386,7 +400,8 @@
       },
       {
         "name": "Angular Material",
-        "status": "done"
+        "status": "done",
+        "issueLink": "https://github.com/AnguHashBlog/angular-material/tree/develop/angular-material-app/src/app/components/series"
       },
       {
         "name": "PrimeNG",
@@ -410,7 +425,8 @@
       },
       {
         "name": "Angular Material",
-        "status": "done"
+        "status": "done",
+        "issueLink": "https://github.com/AnguHashBlog/angular-material/blob/1f4a1829e0f1a38799b240c2fdfb7bf812018053/angular-material-app/src/app/components/series/series.component.html#L5"
       },
       {
         "name": "PrimeNG",
@@ -434,7 +450,8 @@
       },
       {
         "name": "Angular Material",
-        "status": "done"
+        "status": "done",
+        "issueLink": "https://github.com/AnguHashBlog/angular-material/blob/1f4a1829e0f1a38799b240c2fdfb7bf812018053/angular-material-app/src/theme.scss#L70"
       },
       {
         "name": "PrimeNG",
@@ -484,7 +501,8 @@
       },
       {
         "name": "Angular Material",
-        "status": "done"
+        "status": "done",
+        "issueLink": "https://github.com/AnguHashBlog/angular-material/blob/develop/angular-material-app/src/app/directives/youtube-video-embed.directive.ts"
       },
       {
         "name": "PrimeNG",
@@ -508,7 +526,8 @@
       },
       {
         "name": "Angular Material",
-        "status": "done"
+        "status": "done",
+        "issueLink": "https://github.com/AnguHashBlog/angular-material/tree/develop/angular-material-app/src/app/partials/follow-dialog"
       },
       {
         "name": "PrimeNG",
@@ -531,7 +550,8 @@
       },
       {
         "name": "Angular Material",
-        "status": "done"
+        "status": "done",
+        "issueLink": "https://github.com/AnguHashBlog/angular-material/tree/develop/angular-material-app/src/app/partials/search-dialog"
       },
       {
         "name": "PrimeNG",
@@ -555,7 +575,8 @@
       },
       {
         "name": "Angular Material",
-        "status": "done"
+        "status": "done",
+        "issueLink": "https://github.com/AnguHashBlog/angular/pull/35/files"
       },
       {
         "name": "PrimeNG",
@@ -579,7 +600,8 @@
       },
       {
         "name": "Angular Material",
-        "status": "done"
+        "status": "done",
+        "issueLink": "https://github.com/AnguHashBlog/angular-material/pull/34/files"
       },
       {
         "name": "PrimeNG",
@@ -599,11 +621,12 @@
       {
         "name": "Angular",
         "status": "done",
-        "issueLink": "https://github.com/AnguHashBlog/angular/blob/4adbea34e15a3873d35a8c3c3ac6196904508b55/angular-app/src/app/components/header/header.component.ts#L63"
+        "issueLink": "https://github.com/AnguHashBlog/angular/blob/4adbea34e15a3873d35a8c3c3ac6196904508b55/angular-app/src/app/components/header/header.component.ts#L64"
       },
       {
         "name": "Angular Material",
-        "status": "done"
+        "status": "done",
+        "issueLink": "https://github.com/AnguHashBlog/angular-material/blob/1f4a1829e0f1a38799b240c2fdfb7bf812018053/angular-material-app/src/app/components/header/header.component.ts#L67"
       },
       {
         "name": "PrimeNG",
@@ -627,7 +650,8 @@
       },
       {
         "name": "Angular Material",
-        "status": "done"
+        "status": "done",
+        "issueLink": "https://github.com/AnguHashBlog/angular-material/blob/1f4a1829e0f1a38799b240c2fdfb7bf812018053/angular-material-app/src/app/app.component.ts#L38"
       },
       {
         "name": "PrimeNG",
@@ -666,42 +690,18 @@
     ]
   },
   {
-    "name": "Load more posts button has been implemented to appear conditionally in the series component",
-    "description": "Implemented using a themeService and a toggle button in the header.",
-    "app": [
-      {
-        "name": "Angular",
-        "status": "done",
-        "issueLink": "https://github.com/AnguHashBlog/angular/pull/42/files"
-      },
-      {
-        "name": "Angular Material",
-        "status": "",
-        "issueLink": "https://github.com/AnguHashBlog/angular-material/issues/4"
-      },
-      {
-        "name": "PrimeNG",
-        "status": "done"
-      },
-      {
-        "name": "Analog",
-        "status": "",
-        "issueLink": "https://github.com/AnguHashBlog/analog/issues"
-      }
-    ]
-  },
-  {
     "name": "Layout for post details includes sidenav and minimal header with conditionally rendered elements",
     "description": "Implemented using a themeService and a toggle button in the header.",
     "app": [
       {
         "name": "Angular",
         "status": "done",
-        "issueLink": "https://github.com/AnguHashBlog/angular/pull/70/files"
+        "issueLink": "https://github.com/AnguHashBlog/angular/blob/6d9d8178f82ca4d38f441ab928fd9cce0d949d23/angular-app/src/app/components/header/header.component.html#L5"
       },
       {
         "name": "Angular Material",
-        "status": "done"
+        "status": "done",
+        "issueLink": ""
       },
       {
         "name": "PrimeNG",
@@ -744,12 +744,13 @@
     "app": [
       {
         "name": "Angular",
-        "status": ""
+        "status": "",
+        "issueLink": "https://github.com/AnguHashBlog/angular/issues/36"
       },
       {
         "name": "Angular Material",
         "status": "",
-        "issueLink": "https://github.com/AnguHashBlog/angular/pull/102"
+        "issueLink": "https://github.com/AnguHashBlog/angular-material/issues/30"
       },
       {
         "name": "PrimeNG",
@@ -768,7 +769,8 @@
     "app": [
       {
         "name": "Angular",
-        "status": ""
+        "status": "",
+         "issueLink": "https://github.com/AnguHashBlog/angular/issues/24"
       },
       {
         "name": "Angular Material",
@@ -841,7 +843,8 @@
     "app": [
       {
         "name": "Angular",
-        "status": "done"
+        "status": "done",
+        "issueLink": "https://github.com/AnguHashBlog/angular/pull/73/files"
       },
       {
         "name": "Angular Material",
@@ -864,7 +867,8 @@
     "app": [
       {
         "name": "Angular",
-        "status": "done"
+        "status": "done",
+        "issueLink": "https://github.com/AnguHashBlog/angular/blob/develop/angular-app/src/app/partials/share-dialog/share-dialog.component.ts"
       },
       {
         "name": "Angular Material",
