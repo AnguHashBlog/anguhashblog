@@ -63,7 +63,7 @@
           <h2>Submitting an Issue</h2>
         </mat-panel-title>
       </mat-expansion-panel-header>
-      <p>Before opening an issue, please check the tracker to see if a similar issue has been raised. Existing
+      <p>Before opening an issue, please check the <a routerLink="/issue-picker">Issue Picker</a> to see if a similar issue has been raised. Existing
         discussions may provide useful insights or workarounds.</p>
       <p>Evaluate whether the Issue is a <span>Feature</span> or a <span>Bug</span> and submit the correct issue type.
         You can file new issues by selecting from our new issue templates and filling out the issue template.</p>
@@ -99,7 +99,7 @@
           <h2>Standardization Across App Versions</h2>
         </mat-panel-title>
       </mat-expansion-panel-header>
-      <p>All app versions maintain consistent file structures, functionalities, and feature implementations deliberately. The variations between versions are minimal, primarily revolving around the utilization of UI components where a UI library is used.</p><p>Once an issue has been resolved in one app version, the same implementation must be extended to all other versions, unless a superior alternative is proposed.</p><p> Any new implementation suggestion must be discussed to verify they are suitable for adoption across all app versions.</p>
+      <p>All app versions maintain consistent file structures, functionalities, and feature implementations deliberately. The variations between versions are minimal, primarily revolving around the utilization of UI components where a UI library is used.</p><p>Once an issue has been resolved in one app version, the same implementation must be extended to all other versions, unless a superior alternative is proposed and accepted.</p><p> Any new implementation suggestion must be discussed to verify it's suitable for adoption across all app versions.</p>
     </mat-expansion-panel>
 
     <mat-expansion-panel #beforeIssueStart [id]="'before-issue-start'" [expanded]="currentPanelId === 'before-issue-start'">
