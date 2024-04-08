@@ -21,7 +21,7 @@
       {
         "name": "Analog",
         "status": "done",
-        "issueLink": "https://github.com/AnguHashBlog/analog"
+        "issueLink": "https://github.com/AnguHashBlog/analog/issues/new/choose"
       }
     ]
   },
@@ -47,7 +47,7 @@
       {
         "name": "Analog",
         "status": "done",
-        "issueLink": "https://github.com/AnguHashBlog/analog"
+        "issueLink": "https://github.com/AnguHashBlog/analog/issues/new/choose"
       }
     ]
   },
@@ -67,11 +67,13 @@
       },
       {
         "name": "PrimeNG",
-        "status": "done"
+        "status": "done",
+        "issueLink": "https://github.com/AnguHashBlog/angular-primeng/blob/develop/angular-primeng-app/src/app/services/theme.service.ts"
       },
       {
         "name": "Analog",
-        "status": ""
+        "status": "",
+        "issueLink": "https://github.com/AnguHashBlog/analog/issues/new/choose"
       }
     ]
   },
@@ -91,11 +93,13 @@
       },
       {
         "name": "PrimeNG",
-        "status": "done"
+        "status": "done",
+        "issueLink": "https://github.com/AnguHashBlog/angular-primeng/blob/develop/angular-primeng-app/src/app/app.config.ts"
       },
       {
         "name": "Analog",
-        "status": "done"
+        "status": "done",
+        "issueLink": "https://github.com/AnguHashBlog/analog/issues/new/choose"
       }
     ]
   },
@@ -115,11 +119,13 @@
       },
       {
         "name": "PrimeNG",
-        "status": "done"
+        "status": "done",
+        "issueLink": "https://github.com/AnguHashBlog/angular-primeng/blob/develop/angular-primeng-app/src/app/services/blog.service.ts"
       },
       {
         "name": "Analog",
-        "status": "done"
+        "status": "done",
+        "issueLink": "https://github.com/AnguHashBlog/analog/issues/new/choose"
       }
     ]
   },
@@ -139,11 +145,13 @@
       },
       {
         "name": "PrimeNG",
-        "status": "done"
+        "status": "done",
+        "issueLink": "https://github.com/AnguHashBlog/angular-primeng/tree/develop/angular-primeng-app/src/app/components/posts"
       },
       {
         "name": "Analog",
-        "status": "done"
+        "status": "done",
+        "issueLink": "https://github.com/AnguHashBlog/analog/issues/new/choose"
       }
     ]
   },
@@ -163,11 +171,13 @@
       },
       {
         "name": "PrimeNG",
-        "status": "done"
+        "status": "done",
+        "issueLink": "https://github.com/AnguHashBlog/angular-primeng/tree/develop/angular-primeng-app/src/app/components/post-details"
       },
       {
         "name": "Analog",
-        "status": "done"
+        "status": "done",
+        "issueLink": "https://github.com/AnguHashBlog/analog/issues/new/choose"
       }
     ]
   },
@@ -187,11 +197,13 @@
       },
       {
         "name": "PrimeNG",
-        "status": "done"
+        "status": "done",
+        "issueLink": "https://github.com/AnguHashBlog/angular-primeng/blob/develop/angular-primeng-app/src/app/components/post-details/post-details.component.scss"
       },
       {
         "name": "Analog",
-        "status": "done"
+        "status": "done",
+        "issueLink": "https://github.com/AnguHashBlog/analog/issues/new/choose"
       }
     ]
   },
@@ -211,11 +223,13 @@
       },
       {
         "name": "PrimeNG",
-        "status": "done"
+        "status": "done",
+        "issueLink": "https://github.com/AnguHashBlog/angular-primeng/blob/93a039a938b548344d52c348c3bd4378b4b4e4b0/angular-primeng-app/src/app/components/header/header.component.html#L4"
       },
       {
         "name": "Analog",
-        "status": "done"
+        "status": "done",
+        "issueLink": "https://github.com/AnguHashBlog/analog/issues/new/choose"
       }
     ]
   },
@@ -235,11 +249,13 @@
       },
       {
         "name": "PrimeNG",
-        "status": "done"
+        "status": "done",
+        "issueLink": "https://github.com/AnguHashBlog/angular-primeng/blob/93a039a938b548344d52c348c3bd4378b4b4e4b0/angular-primeng-app/src/app/components/header/header.component.html#L29"
       },
       {
         "name": "Analog",
-        "status": "done"
+        "status": "done",
+        "issueLink": "https://github.com/AnguHashBlog/analog/issues/new/choose"
       }
     ]
   },
@@ -259,11 +275,13 @@
       },
       {
         "name": "PrimeNG",
-        "status": "done"
+        "status": "",
+        "issueLink": "https://github.com/AnguHashBlog/angular-primeng/issues/16"
       },
       {
         "name": "Analog",
-        "status": "done"
+        "status": "done",
+        "issueLink": "https://github.com/AnguHashBlog/analog/issues/new/choose"
       }
     ]
   },
@@ -288,7 +306,8 @@
       },
       {
         "name": "Analog",
-        "status": "done"
+        "status": "done",
+        "issueLink": "https://github.com/AnguHashBlog/analog/issues/new/choose"
       }
     ]
   },
@@ -308,12 +327,13 @@
       },
       {
         "name": "PrimeNG",
-        "status": "done"
+        "status": "done",
+        "issueLink": "https://github.com/AnguHashBlog/angular-primeng/blob/93a039a938b548344d52c348c3bd4378b4b4e4b0/angular-primeng-app/src/index.html#L8"
       },
       {
         "name": "Analog",
         "status": "",
-        "issueLink": "https://github.com/AnguHashBlog/analog/issues"
+        "issueLink": "https://github.com/AnguHashBlog/analog/issues/new/choose/issues"
       }
     ]
   },
@@ -333,11 +353,13 @@
       },
       {
         "name": "PrimeNG",
-        "status": "done"
+        "status": "done",
+        "issueLink": "https://github.com/AnguHashBlog/angular-primeng/tree/develop/angular-primeng-app/src/app/models"
       },
       {
         "name": "Analog",
-        "status": "done"
+        "status": "done",
+        "issueLink": "https://github.com/AnguHashBlog/analog/issues/new/choose"
       }
     ]
   },
@@ -357,11 +379,13 @@
       },
       {
         "name": "PrimeNG",
-        "status": "done"
+        "status": "done",
+        "issueLink": "https://github.com/AnguHashBlog/angular-primeng/blob/develop/angular-primeng-app/src/app/graphql.operations.ts"
       },
       {
         "name": "Analog",
-        "status": "done"
+        "status": "done",
+        "issueLink": "https://github.com/AnguHashBlog/analog/issues/new/choose"
       }
     ]
   },
@@ -381,11 +405,13 @@
       },
       {
         "name": "PrimeNG",
-        "status": "done"
+        "status": "done",
+        "issueLink": "https://github.com/AnguHashBlog/angular-primeng/blob/93a039a938b548344d52c348c3bd4378b4b4e4b0/angular-primeng-app/src/app/components/header/header.component.html#L55"
       },
       {
         "name": "Analog",
-        "status": "done"
+        "status": "done",
+        "issueLink": "https://github.com/AnguHashBlog/analog/issues/new/choose"
       }
     ]
   },
@@ -405,12 +431,13 @@
       },
       {
         "name": "PrimeNG",
-        "status": "done"
+        "status": "done",
+        "issueLink": "https://github.com/AnguHashBlog/angular-primeng/tree/93a039a938b548344d52c348c3bd4378b4b4e4b0/angular-primeng-app/src/app/components/series"
       },
       {
         "name": "Analog",
         "status": "",
-        "issueLink": "https://github.com/AnguHashBlog/analog/issues"
+        "issueLink": "https://github.com/AnguHashBlog/analog/issues/new/choose/issues"
       }
     ]
   },
@@ -430,12 +457,13 @@
       },
       {
         "name": "PrimeNG",
-        "status": "done"
+        "status": "done",
+        "issueLink": "https://github.com/AnguHashBlog/angular-primeng/blob/93a039a938b548344d52c348c3bd4378b4b4e4b0/angular-primeng-app/src/app/components/series/series.component.html#L5"
       },
       {
         "name": "Analog",
         "status": "",
-        "issueLink": "https://github.com/AnguHashBlog/analog/issues"
+        "issueLink": "https://github.com/AnguHashBlog/analog/issues/new/choose/issues"
       }
     ]
   },
@@ -455,12 +483,13 @@
       },
       {
         "name": "PrimeNG",
-        "status": "done"
+        "status": "done",
+        "issueLink": "https://github.com/AnguHashBlog/angular-primeng/blob/93a039a938b548344d52c348c3bd4378b4b4e4b0/angular-primeng-app/src/styles.scss#L52"
       },
       {
         "name": "Analog",
         "status": "",
-        "issueLink": "https://github.com/AnguHashBlog/analog/issues"
+        "issueLink": "https://github.com/AnguHashBlog/analog/issues/new/choose/issues"
       }
     ]
   },
@@ -486,7 +515,7 @@
       {
         "name": "Analog",
         "status": "",
-        "issueLink": "https://github.com/AnguHashBlog/analog/issues"
+        "issueLink": "https://github.com/AnguHashBlog/analog/issues/new/choose/issues"
       }
     ]
   },
@@ -506,12 +535,13 @@
       },
       {
         "name": "PrimeNG",
-        "status": "done"
+        "status": "done",
+        "issueLink": "https://github.com/AnguHashBlog/angular-primeng/blob/develop/angular-primeng-app/src/app/directives/youtube-video-embed.directive.ts"
       },
       {
         "name": "Analog",
         "status": "",
-        "issueLink": "https://github.com/AnguHashBlog/analog/issues"
+        "issueLink": "https://github.com/AnguHashBlog/analog/issues/new/choose/issues"
       }
     ]
   },
@@ -531,11 +561,13 @@
       },
       {
         "name": "PrimeNG",
-        "status": "done"
+        "status": "done",
+        "issueLink": "https://github.com/AnguHashBlog/angular-primeng/tree/develop/angular-primeng-app/src/app/partials/follow-dialog"
       },
       {
         "name": "Analog",
-        "status": "done"
+        "status": "done",
+        "issueLink": "https://github.com/AnguHashBlog/analog/issues/new/choose"
       }
     ]
   },
@@ -555,12 +587,13 @@
       },
       {
         "name": "PrimeNG",
-        "status": "done"
+        "status": "done",
+        "issueLink": "https://github.com/AnguHashBlog/angular-primeng/blob/93a039a938b548344d52c348c3bd4378b4b4e4b0/angular-primeng-app/src/app/components/header/header.component.html#L17"
       },
       {
         "name": "Analog",
         "status": "",
-        "issueLink": "https://github.com/AnguHashBlog/analog/issues"
+        "issueLink": "https://github.com/AnguHashBlog/analog/issues/new/choose/issues"
       }
     ]
   },
@@ -576,16 +609,17 @@
       {
         "name": "Angular Material",
         "status": "done",
-        "issueLink": "https://github.com/AnguHashBlog/angular/pull/35/files"
+        "issueLink": "https://github.com/AnguHashBlog/angular-primeng/blob/93a039a938b548344d52c348c3bd4378b4b4e4b0/angular-primeng-app/src/app/components/header/header.component.html#L18"
       },
       {
         "name": "PrimeNG",
-        "status": "done"
+        "status": "done",
+        "issueLink": "https://github.com/AnguHashBlog/angular/pull/35/files"
       },
       {
         "name": "Analog",
         "status": "",
-        "issueLink": "https://github.com/AnguHashBlog/analog/issues"
+        "issueLink": "https://github.com/AnguHashBlog/analog/issues/new/choose/issues"
       }
     ]
   },
@@ -605,12 +639,13 @@
       },
       {
         "name": "PrimeNG",
-        "status": "done"
+        "status": "done",
+        "issueLink": "https://github.com/AnguHashBlog/angular-primeng/tree/develop/angular-primeng-app/src/app/partials/settings-dialog"
       },
       {
         "name": "Analog",
         "status": "",
-        "issueLink": "https://github.com/AnguHashBlog/analog/issues"
+        "issueLink": "https://github.com/AnguHashBlog/analog/issues/new/choose/issues"
       }
     ]
   },
@@ -630,12 +665,13 @@
       },
       {
         "name": "PrimeNG",
-        "status": "done"
+        "status": "done",
+        "issueLink": "https://github.com/AnguHashBlog/angular-primeng/blob/93a039a938b548344d52c348c3bd4378b4b4e4b0/angular-primeng-app/src/app/components/header/header.component.ts#L67"
       },
       {
         "name": "Analog",
         "status": "",
-        "issueLink": "https://github.com/AnguHashBlog/analog/issues"
+        "issueLink": "https://github.com/AnguHashBlog/analog/issues/new/choose/issues"
       }
     ]
   },
@@ -655,12 +691,13 @@
       },
       {
         "name": "PrimeNG",
-        "status": "done"
+        "status": "done",
+        "issueLink": "https://github.com/AnguHashBlog/angular-primeng/blob/93a039a938b548344d52c348c3bd4378b4b4e4b0/angular-primeng-app/src/app/app.component.ts#L41"
       },
       {
         "name": "Analog",
         "status": "",
-        "issueLink": "https://github.com/AnguHashBlog/analog/issues"
+        "issueLink": "https://github.com/AnguHashBlog/analog/issues/new/choose/issues"
       }
     ]
   },
@@ -680,12 +717,13 @@
       },
       {
         "name": "PrimeNG",
-        "status": "done"
+        "status": "done",
+        "issueLink": "https://github.com/AnguHashBlog/angular-primeng/pull/47"
       },
       {
         "name": "Analog",
         "status": "",
-        "issueLink": "https://github.com/AnguHashBlog/analog/issues"
+        "issueLink": "https://github.com/AnguHashBlog/analog/issues/new/choose/issues"
       }
     ]
   },
@@ -701,16 +739,17 @@
       {
         "name": "Angular Material",
         "status": "done",
-        "issueLink": ""
+        "issueLink": "https://github.com/AnguHashBlog/angular-material/blob/1f4a1829e0f1a38799b240c2fdfb7bf812018053/angular-material-app/src/app/components/header/header.component.ts#L89"
       },
       {
         "name": "PrimeNG",
-        "status": "done"
+        "status": "done",
+        "issueLink": "https://github.com/AnguHashBlog/angular-primeng/blob/93a039a938b548344d52c348c3bd4378b4b4e4b0/angular-primeng-app/src/app/components/header/header.component.ts#L88"
       },
       {
         "name": "Analog",
         "status": "",
-        "issueLink": "https://github.com/AnguHashBlog/analog/issues"
+        "issueLink": "https://github.com/AnguHashBlog/analog/issues/new/choose/issues"
       }
     ]
   },
@@ -725,16 +764,18 @@
       },
       {
         "name": "Angular Material",
-        "status": "done"
+        "status": "done",
+        "issueLink": "https://github.com/AnguHashBlog/angular-material/pull/61/files"
       },
       {
         "name": "PrimeNG",
-        "status": "done"
+        "status": "done",
+        "issueLink": "https://github.com/AnguHashBlog/angular-primeng/pull/53/files"
       },
       {
         "name": "Analog",
         "status": "",
-        "issueLink": "https://github.com/AnguHashBlog/analog/issues"
+        "issueLink": "https://github.com/AnguHashBlog/analog/issues/new/choose/issues"
       }
     ]
   },
@@ -754,12 +795,13 @@
       },
       {
         "name": "PrimeNG",
-        "status": "done"
+        "status": "done",
+        "issueLink": "https://github.com/AnguHashBlog/angular-material/issues/30"
       },
       {
         "name": "Analog",
         "status": "",
-        "issueLink": "https://github.com/AnguHashBlog/analog/issues"
+        "issueLink": "https://github.com/AnguHashBlog/analog/issues/new/choose/issues"
       }
     ]
   },
@@ -782,7 +824,8 @@
       },
       {
         "name": "Analog",
-        "status": ""
+        "status": "",
+        "issueLink": "https://github.com/AnguHashBlog/analog/issues/new/choose"
       }
     ]
   },
@@ -807,7 +850,7 @@
       {
         "name": "Analog",
         "status": "",
-        "issueLink": "https://github.com/AnguHashBlog/analog/issues"
+        "issueLink": "https://github.com/AnguHashBlog/analog/issues/new/choose/issues"
       }
     ]
   },
@@ -833,7 +876,7 @@
       {
         "name": "Analog",
         "status": "",
-        "issueLink": "https://github.com/AnguHashBlog/analog/issues"
+        "issueLink": "https://github.com/AnguHashBlog/analog/issues/new/choose/issues"
       }
     ]
   },
@@ -857,7 +900,7 @@
       {
         "name": "Analog",
         "status": "",
-        "issueLink": "https://github.com/AnguHashBlog/analog/issues"
+        "issueLink": "https://github.com/AnguHashBlog/analog/issues/new/choose/issues"
       }
     ]
   },
@@ -881,7 +924,7 @@
       {
         "name": "Analog",
         "status": "",
-        "issueLink": "https://github.com/AnguHashBlog/analog/issues"
+        "issueLink": "https://github.com/AnguHashBlog/analog/issues/new/choose/issues"
       }
     ]
   },
@@ -903,7 +946,8 @@
       },
       {
         "name": "Analog",
-        "status": "done"
+        "status": "done",
+        "issueLink": "https://github.com/AnguHashBlog/analog/issues/new/choose"
       }
     ]
   }
