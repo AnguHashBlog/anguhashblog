@@ -63,7 +63,7 @@
           <h2>Submitting an Issue</h2>
         </mat-panel-title>
       </mat-expansion-panel-header>
-      <p>Before opening an issue, please check the <a routerLink="/issue-picker">Issue Picker</a> to see if a similar issue has been raised. Existing
+      <p>Before opening an issue, please check the <a routerLink="/issue-tracker">Issue Tracker</a> to see if a similar issue has been raised. Existing
         discussions may provide useful insights or workarounds.</p>
       <p>Evaluate whether the Issue is a <span>Feature</span> or a <span>Bug</span> and submit the correct issue type.
         You can file new issues by selecting from our new issue templates and filling out the issue template.</p>
@@ -100,6 +100,7 @@
         </mat-panel-title>
       </mat-expansion-panel-header>
       <p>All app versions maintain consistent file structures, functionalities, and feature implementations deliberately. The variations between versions are minimal, primarily revolving around the utilization of UI components where a UI library is used.</p><p>Once an issue has been resolved in one app version, the same implementation must be extended to all other versions, unless a superior alternative is proposed and accepted.</p><p> Any new implementation suggestion must be discussed to verify it's suitable for adoption across all app versions.</p>
+      <p>For a good visual representation use the <a routerLink="/issue-tracker">Issue Tracker</a></p>
     </mat-expansion-panel>
 
     <mat-expansion-panel #beforeIssueStart [id]="'before-issue-start'" [expanded]="currentPanelId === 'before-issue-start'">
@@ -108,7 +109,7 @@
           <h2>Before you start working on an Issue</h2>
         </mat-panel-title>
       </mat-expansion-panel-header>
-      <p>Before commencing work on any issue, it is essential to confirm that it has not already been addressed. Utilize the <a routerLink="/issue-picker">Issue Picker</a> tool to check for existing implementations and their corresponding app versions. If the chosen issue has already been resolved in a different app version, consult the Issue Picker to review the existing implementation and replicate it accordingly.</p>
+      <p>Before commencing work on any issue, it is essential to confirm that it has not already been addressed. Utilize the <a routerLink="/issue-tracker">Issue Tracker</a> tool to check for existing implementations and their corresponding app versions. If the chosen issue has already been resolved in a different app version, consult the Issue Tracker to review the existing implementation and replicate it accordingly.</p>
       <p>Even if the issue is labeled as not implemented, it remains your responsibility to examine the app's codebase and confirm the absence of the issue.</p>
     </mat-expansion-panel>
 

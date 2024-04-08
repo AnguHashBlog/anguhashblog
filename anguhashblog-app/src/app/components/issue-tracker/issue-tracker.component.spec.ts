@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { IssuePickerComponent } from './issue-picker.component';
+import { IssueTrackerComponent } from './issue-tracker.component';
 
-describe('IssuePickerComponent', () => {
-  let component: IssuePickerComponent;
-  let fixture: ComponentFixture<IssuePickerComponent>;
+describe('IssueTrackerComponent', () => {
+  let component: IssueTrackerComponent;
+  let fixture: ComponentFixture<IssueTrackerComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [IssuePickerComponent]
+      imports: [IssueTrackerComponent]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(IssuePickerComponent);
+    fixture = TestBed.createComponent(IssueTrackerComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

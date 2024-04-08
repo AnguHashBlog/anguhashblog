@@ -23,10 +23,10 @@ import { MatIconModule } from "@angular/material/icon";
     MatTooltipModule,
 		MatIconModule,
 	],
-	templateUrl: "./issue-picker.component.html",
-	styleUrl: "./issue-picker.component.scss",
+	templateUrl: "./issue-tracker.component.html",
+	styleUrl: "./issue-tracker.component.scss",
 })
-export class IssuePickerComponent implements OnInit {
+export class IssueTrackerComponent implements OnInit {
 	appFeatures: AppFeature[] = [];
 	filteredAppFeatures: AppFeature[] = [];
   private readonly scroller = inject(ViewportScroller);
