@@ -8,7 +8,8 @@
     "dynamicTheme": "yes",
     "structure": "standalone",
     "deployment": ["Netlify" , "Vercel"],
-    "url": "https://angular.anguhashblog.com/"
+    "url": "https://angular.anguhashblog.com/",
+    "github": "https://github.com/AnguHashBlog/angular"
   },
   {
     "imageDark": "../../../assets/images/sites/angular-material-anguhashblog-dark.jpg",
@@ -19,7 +20,8 @@
     "dynamicTheme": "yes",
     "structure": "standalone",
     "deployment": ["Netlify" , "Vercel"],
-    "url": "https://angularmaterial.anguhashblog.com"
+    "url": "https://angularmaterial.anguhashblog.com",
+    "github": "https://github.com/AnguHashBlog/angular-material"
   },
   {
     "imageDark": "../../../assets/images/sites/angular-primeng-anguhashblog-dark.jpg",
@@ -30,6 +32,7 @@
     "dynamicTheme": "yes",
     "structure": "standalone",
     "deployment": ["Netlify" , "Vercel"],
-    "url": "https://angularprimeng.anguhashblog.com"
+    "url": "https://angularprimeng.anguhashblog.com",
+    "github": "https://github.com/AnguHashBlog/angular-peimeng"
   }
 ]

@@ -8,4 +8,5 @@ export interface LiveSite {
   structure: string;
   deployment: [];
   url: string;
+  github: string;
 }
