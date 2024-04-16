@@ -967,8 +967,8 @@
     "app": [
       {
         "name": "Angular",
-        "status": "",
-        "issueLink": "https://github.com/AnguHashBlog/angular/issues/104"
+        "status": "done",
+        "issueLink": "https://github.com/AnguHashBlog/angular/pull/105"
       },
       {
         "name": "Angular Material",
