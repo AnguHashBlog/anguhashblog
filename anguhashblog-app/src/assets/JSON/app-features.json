@@ -962,7 +962,7 @@
     ]
   },
   {
-    "name": "Sanitize settings dialog input field to handle 'https://' and add an error message",
+    "name": "Settings dialog input validations and error handling",
     "description": "Implemented using a themeService and a toggle button in the header.",
     "app": [
       {

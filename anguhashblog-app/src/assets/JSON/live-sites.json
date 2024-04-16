@@ -33,6 +33,6 @@
     "structure": "standalone",
     "deployment": ["Netlify" , "Vercel"],
     "url": "https://angularprimeng.anguhashblog.com",
-    "github": "https://github.com/AnguHashBlog/angular-peimeng"
+    "github": "https://github.com/AnguHashBlog/angular-primeng"
   }
 ]
