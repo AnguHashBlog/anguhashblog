@@ -107,7 +107,7 @@ $dark-text-color: #333;
 
   mat-card {
     mat-card-content {
-      .version-wrapper {
+      .version-banner {
         background: linear-gradient(135deg, #4b434c, #958498, #4b434c,);
         box-shadow: inset 0 0 0.4rem 0.1rem #3f374091;
       }
@@ -189,7 +189,7 @@ $dark-text-color: #333;
     background-color: $lighter-bg-color;
 
     mat-card-content {
-      .version-wrapper {
+      .version-banner {
         background: linear-gradient(135deg, #b0a3b2, #e1cee4, #b0a3b2,);
         box-shadow: inset 0 0 0.4rem 0.1rem #8378856f;
       }

@@ -816,11 +816,13 @@
       },
       {
         "name": "Angular Material",
-        "status": ""
+        "status": "",
+        "issueLink": "https://github.com/AnguHashBlog/angular-material/issues/21"
       },
       {
         "name": "PrimeNG",
-        "status": ""
+        "status": "",
+        "issueLink": "https://github.com/AnguHashBlog/angular-primeng/issues/19"
       },
       {
         "name": "Analog",
@@ -845,7 +847,8 @@
       },
       {
         "name": "PrimeNG",
-        "status": "done"
+        "status": "done",
+        "issueLink": "https://github.com/AnguHashBlog/angular-primeng/pull/60"
       },
       {
         "name": "Analog",
@@ -891,11 +894,13 @@
       },
       {
         "name": "Angular Material",
-        "status": ""
+        "status": "",
+        "issueLink": "https://github.com/AnguHashBlog/angular-material/issues/68"
       },
       {
         "name": "PrimeNG",
-        "status": ""
+        "status": "",
+        "issueLink": "https://github.com/AnguHashBlog/angular-primeng/issues/66"
       },
       {
         "name": "Analog",
@@ -915,11 +920,13 @@
       },
       {
         "name": "Angular Material",
-        "status": ""
+        "status": "",
+        "issueLink": "https://github.com/AnguHashBlog/angular-material/issues/68"
       },
       {
         "name": "PrimeNG",
-        "status": ""
+        "status": "",
+        "issueLink": "https://github.com/AnguHashBlog/angular-primeng/issues/66"
       },
       {
         "name": "Analog",
@@ -934,19 +941,48 @@
     "app": [
       {
         "name": "Angular",
-        "status": ""
+        "status": "",
+        "issueLink": "https://github.com/AnguHashBlog/angular/issues/76"
       },
       {
         "name": "Angular Material",
-        "status": ""
+        "status": "",
+        "issueLink": "https://github.com/AnguHashBlog/angular-material/issues/11"
       },
       {
         "name": "PrimeNG",
-        "status": ""
+        "status": "",
+        "issueLink": "https://github.com/AnguHashBlog/angular-primeng/issues/9"
       },
       {
         "name": "Analog",
         "status": "done",
+        "issueLink": "https://github.com/AnguHashBlog/analog/issues/new/choose"
+      }
+    ]
+  },
+  {
+    "name": "Sanitize settings dialog input field to handle 'https://' and add an error message",
+    "description": "Implemented using a themeService and a toggle button in the header.",
+    "app": [
+      {
+        "name": "Angular",
+        "status": "",
+        "issueLink": "https://github.com/AnguHashBlog/angular/issues/104"
+      },
+      {
+        "name": "Angular Material",
+        "status": "",
+        "issueLink": "https://github.com/AnguHashBlog/angular-material/issues/69"
+      },
+      {
+        "name": "PrimeNG",
+        "status": "",
+        "issueLink": "https://github.com/AnguHashBlog/angular-primeng/issues/67"
+      },
+      {
+        "name": "Analog",
+        "status": "",
         "issueLink": "https://github.com/AnguHashBlog/analog/issues/new/choose"
       }
     ]
