@@ -46,7 +46,7 @@
     },
     {
       "title": "Don't confuse Maintainers with Mentors",
-      "description": "While maintainers are resources for guidance and support, avoid relying solely on them for every task or decision. Furthermore, maintainers are not your personal mentors and they are not here to answer: Google-able questions; explain basic programming concepts; or cover anything outside the scope of the open-source project. If you have knowledge gaps, you must address them. Take initiative in problem-solving, seek guidance from documentation and community resources, and collaborate with other contributors. Empowering yourself fosters personal growth and contributes to a more self-sustaining community"
+      "description": "While maintainers are resources for guidance and support, avoid relying solely on them for every task or decision. Furthermore, maintainers are not your personal mentors and they are not here to: answer Google-able questions; explain basic programming concepts; or cover anything outside the scope of the open-source project. If you have knowledge gaps, you must address them. Take initiative in problem-solving, seek guidance from documentation and community resources, and collaborate with other contributors. Empowering yourself fosters personal growth and contributes to a more self-sustaining community"
     },
     {
       "title": "Don't Neglect Community Guidelines",
