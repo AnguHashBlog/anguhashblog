@@ -26,8 +26,6 @@
       }
     }
 
-
-
     mat-accordion {
       mat-expansion-panel {
         margin: 0.5rem 0;
@@ -63,6 +61,27 @@
           }
         }
 
+      }
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .dos-donts {
+    width: 90vw;
+    margin-bottom: 1rem;
+
+    p {
+      width: 100%;
+    }
+
+    .section {
+      mat-accordion{
+        mat-expansion-panel {
+          mat-expansion-panel-header {
+            height: 4rem;
+          }
+        }
       }
     }
   }
