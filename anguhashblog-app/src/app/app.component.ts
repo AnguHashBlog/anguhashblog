@@ -53,6 +53,7 @@ export class AppComponent implements OnInit, OnDestroy {
 		{ name: "Demos", route: "demos", icon: "widgets" },
 		{ name: "Overview", route: "overview", icon: "view_carousel" },
 		{ name: "Contributing", route: "contributing", icon: "code" },
+		{ name: "DOs & DON'Ts", route: "dos-donts", icon: "checkmark" },
 		{ name: "Issue Tracker", route: "issue-tracker", icon: "search" },
 		{ name: "Code Of Conduct", route: "code-of-conduct", icon: "code" },
 		// { name: "How To Use", route: "use", icon: "note" },

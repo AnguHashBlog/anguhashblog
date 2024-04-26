@@ -1,8 +1,8 @@
 import { Component, inject, OnInit, AfterViewInit, QueryList, ViewChildren } from '@angular/core';
 import { ActivatedRoute, RouterLink } from '@angular/router';
+import { ViewportScroller } from '@angular/common';
 
 import {MatExpansionModule, MatExpansionPanel} from '@angular/material/expansion';
-import { ViewportScroller } from '@angular/common';
 
 @Component({
   selector: 'app-contributing',

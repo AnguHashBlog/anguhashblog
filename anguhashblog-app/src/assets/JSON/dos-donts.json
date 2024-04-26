@@ -1,0 +1,76 @@
+{
+  "dos": [
+    {
+      "title": "Read the Documentation and Information provided",
+      "description": "Every open-source project has some kind of guidebook, though it might not be called 'documentation' outright. Docs can be anything from super detailed to just the basics. But remember, if you ask a maintainer something that's already covered in the docs, it shows them right away that you didn't bother reading. And that's not the best first impression. So, yeah, check out the docs first!",
+      "link":"/contributing",
+      "linkDescription": " pages, often serve as the primary source of information, covering everything you need to know."
+    },
+    {
+      "title": "Learn about the Role of an Open Source Maintainer",
+      "description": "Open source maintainers are often experienced developers who not only write code and develop projects but also create documentation, develop live sites, handle deployment, track and document issues, conduct code reviews, and assist collaborators within the project's scope. There are cases where maintainers may not directly contribute code, but they still engage in various activities. It's important to verify before assuming their responsibilities. Typically, maintainers are heavily involved in code writing, and you can gain more insights by exploring the repository's analytics."
+    },
+    {
+      "title": "Contribute by Automating Tasks",
+      "description": "Consider contributing to the project by automating repetitive tasks that maintainers handle. Automation can help streamline the development process and free up maintainers' time for more critical tasks."
+    },
+    {
+      "title": "Improve Test Coverage with Automated Tests",
+      "description": "Help enhance the project's test coverage by writing and improving automated tests. Comprehensive test coverage ensures the stability and reliability of the codebase, making it easier for maintainers to manage."
+    },
+    {
+      "title": "Assist in Keeping Documentation Up to Date",
+      "description": "Support the project by ensuring that its documentation remains current and accurate. You can contribute by updating documentation to reflect new features, changes, or improvements, helping maintain a valuable resource for users and contributors."
+    },
+    {
+      "title": "Help Identify and Resolve Duplicate Issues",
+      "description": "Participate in keeping the issue tracker organized by identifying and resolving duplicate issues. This contribution helps streamline the development process, making it easier for maintainers to focus on addressing genuine problems and feature requests."
+    },
+    {
+      "title": "Contribute Quality Pull Requests",
+      "description": "Contribute to the project by submitting well-tested and documented pull requests. By thoroughly testing your changes and providing clear documentation, you help maintainers review and merge contributions more efficiently."
+    },
+    {
+      "title": "Respect Existing Technology and Progress and Build Upon It",
+      "description": "You don't have to be in love with the tech stack but if you want to join as a contributor you should at least respect the technology and progress already achieved by the project. When contributing, focus on building upon existing features and infrastructure rather than introducing disruptive changes. By working incrementally and collaboratively, you can enhance the project's functionality and maintain its stability."
+    }
+  ],
+  "donts": [
+    {
+      "title": "Don't Neglect Community Guidelines",
+      "description": "Respect the project's community guidelines and code of conduct when contributing. Behaviors such as spamming, trolling, or engaging in disrespectful communication detract from the collaborative spirit of open source. Adhere to established norms to maintain a positive and inclusive community environment."
+    },
+    {
+      "title": "Don't ask maintainers to repeat things already explained in Documentation",
+      "description": "Don't bug the maintainers with questions they've already answered in the docs. It's like asking for directions when you've got a map right in front of you. Save everyone's time and check the docs first before reaching out."
+    },
+    {
+      "title": "Don't Overload Maintainers with Unnecessary Requests",
+      "description": "Avoid overwhelming maintainers with requests beyond the scope of their responsibilities. While maintainers are there to guide and support contributors, it's essential to respect their time and autonomy. Instead, foster your growth by seeking resources and engaging with the community."
+    },
+    {
+      "title": "Don't Give Unsolicited or Unconstructive Criticism",
+      "description": "Refrain from offering unsolicited or unconstructive criticism. Instead, focus on providing feedback and suggestions in a respectful and constructive manner. Positive and constructive communication fosters a supportive and collaborative environment within the open-source community."
+    },
+    {
+      "title": "Don't Assume Maintainers' Availability",
+      "description": "Avoid assuming that maintainers are always available to address your queries or review your contributions immediately. Understand that maintainers have other commitments and responsibilities beyond the project. Exercise patience and allow them sufficient time to respond or review your contributions."
+    },
+    {
+      "title": "Avoid Dependency on Maintainers for Every Task",
+      "description": "While maintainers are resources for guidance and support, avoid relying solely on them for every task or decision. Take initiative in problem-solving, seek guidance from documentation and community resources, and collaborate with other contributors. Empowering yourself fosters personal growth and contributes to a more self-sustaining community."
+    },
+    {
+      "title": "Don't Introduce Destructive Changes",
+      "description": "Refrain from introducing disruptive or destructive changes to the project. Is the contributors responsibility to verify that they are not introducing a destructive change, wether it being due to lack of experience or other reasons. Respect the existing codebase and infrastructure, and avoid making changes that undermine its stability or functionality. Instead, focus on incremental improvements that build upon the project's foundation and align with its goals."
+    },
+    {
+      "title": "Don't Argue or Be Disrespectful When Receiving Feedback",
+      "description": "If a maintainer or existing contributor informs you that your pull request is not compliant, avoid arguing or being disrespectful. Refrain from telling them they are wrong. Such behavior can lead to being banned from the project. Instead, approach feedback with humility and a willingness to learn and improve."
+    },
+    {
+      "title": "Don't Even Try Cheap Tricks, like using Indentation to Inflate Contribution",
+      "description": "Do not attempt to manipulate indentation to create the illusion of having made more changes to the code, or to make the PR appear more substantial. This tactic may be tempting for inexperienced developers, but experienced developers can easily detect it and will be frustrated by such behavior. Such actions will leave a negative impression and undermine trust within the project's community. This is just one example, but avoid engaging in any of those silly cheap tricks, as you are not fooling anyone."
+    }
+  ]
+}
