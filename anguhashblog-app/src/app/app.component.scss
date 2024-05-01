@@ -30,6 +30,7 @@
   mat-toolbar {
     justify-content: space-between;
     min-height: 4rem;
+    z-index: 2;
 
     .site-info {
       display: flex;
@@ -83,6 +84,9 @@
     overflow: visible;
 
     mat-sidenav {
+      width:auto;
+      border-radius: 0%;
+
       mat-nav-list {
         a {
           padding: 1rem 2rem 1rem 1rem;
@@ -104,7 +108,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: 14.5vw;
     padding: 1rem 3rem 2rem;
   }
 }
