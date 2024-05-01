@@ -94,6 +94,25 @@ $dark-text-color: #333;
     }
   }
 
+  // slide toggle overwrites
+  mat-slide-toggle {
+    button {
+      .mdc-switch__track {
+        &::after {
+          background-color: #423944 !important;
+        }
+      }
+
+      .mdc-switch__handle-track {
+        .mdc-switch__handle {
+          &::after {
+            background: $accent-4 !important;
+          }
+        }
+      }
+    }
+  }
+
   mat-sidenav-container {
     mat-sidenav {
       background-color: #191818;
@@ -117,7 +136,8 @@ $dark-text-color: #333;
     mat-sidenav-content {
       color: $light-text-color;
 
-      h1, h2 {
+      h1,
+      h2 {
         color: $accent-1;
       }
 
@@ -135,7 +155,6 @@ $dark-text-color: #333;
   app-issue-picker {
     button {
       background-color: $accent-2;
-      color: $dark-bg-color;
     }
   }
 
@@ -185,6 +204,25 @@ $dark-text-color: #333;
     }
   }
 
+  // slide toggle overwrites
+  mat-slide-toggle {
+    button {
+      .mdc-switch__track {
+        &::before {
+          border-color: #d4d4d4;
+        }
+      }
+
+      .mdc-switch__handle-track {
+        .mdc-switch__handle {
+          &::after {
+            background: $accent-4 !important;
+          }
+        }
+      }
+    }
+  }
+
   mat-sidenav-container {
     mat-sidenav {
       background-color: $lighter-bg-color;
@@ -208,7 +246,8 @@ $dark-text-color: #333;
     mat-sidenav-content {
       color: $dark-text-color;
 
-      h1, h2 {
+      h1,
+      h2 {
         color: $accent-4;
       }
 
