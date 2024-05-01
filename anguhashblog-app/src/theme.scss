@@ -152,7 +152,7 @@ $dark-text-color: #333;
     }
   }
 
-  app-issue-picker {
+  app-issue-picker, .scroll-to-top-container {
     button {
       background-color: $accent-2;
     }
@@ -266,7 +266,7 @@ $dark-text-color: #333;
     }
   }
 
-  app-issue-picker {
+  app-issue-picker, .scroll-to-top-container {
     button {
       background-color: $accent-1;
       color: $semi-dark-bg-color;

@@ -42,5 +42,15 @@
       </mat-sidenav-content>
     </mat-sidenav-container>
     <app-footer></app-footer>
+    <div class="scroll-to-top-container" [class.show]="showScrollButton">
+      <button
+        mat-fab
+        color="primary"
+        class="scroll-to-top-button"
+        (click)="scrollToTop()"
+      >
+        <mat-icon>keyboard_arrow_up</mat-icon>
+      </button>
+    </div>
   </div>
 </div>

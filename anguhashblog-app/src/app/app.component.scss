@@ -110,4 +110,22 @@
     justify-content: center;
     padding: 1rem 3rem 2rem;
   }
+
+  .scroll-to-top-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    z-index: 3;
+
+    &.show {
+      opacity: 1;
+    }
+
+    .scroll-to-top-button {
+      width: 40px;
+      height: 40px;
+    }
+  }
 }
