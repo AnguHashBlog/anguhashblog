@@ -1,4 +1,5 @@
 <div class="demos">
+
   <div class="cards-wrapper">
     @for (site of liveSites; track site) {
     <mat-card>
@@ -35,9 +36,40 @@
     </mat-card>
     }
   </div>
-  <div class="links-wrapper">
+
+  <div class="cards-wrapper">
+    <mat-card>
+      <a href="https://analog.anguhashblog.com/" target="_blank" rel="noopener noreferrer">
+        <mat-card-header>
+          <img ngSrc="../../../assets/images/sites/analog-anguhashblog-dark.jpg" alt="anguhashblog demo dark" height="57" width="100">
+        </mat-card-header>
+      </a>
+      <mat-card-content>
+        <div class="version-banner">
+          <div class="framework-version">
+            <mat-icon svgIcon="angular"></mat-icon>
+            <p>v17</p>
+          </div>
+          <div class="ui-lib">
+            <img src="../../../assets/icons/analog.png" alt="analog">
+            <p>2.0.1</p>
+          </div>
+          <a class="link" href="https://github.com/AnguHashBlog/analog" target="_blank" rel="noopener noreferrer">
+            <mat-icon svgIcon="github"></mat-icon>
+          </a>
+        </div>
+        <!-- <div class="site-info">
+            <h3>UI Library: {{site.uiLib}}</h3>
+            <h3>Dynamic Theme: {{site.dynamicTheme}}</h3>
+            <h3>Structure: {{site.structure}}</h3>
+            <h3>Deployment: {{site.deployment}}</h3>
+          </div> -->
+      </mat-card-content>
+    </mat-card>
+  </div>
+  <!-- <div class="links-wrapper">
     <a href="" target="_blank" rel="noopener noreferrer">Angular with Spartan UI (soon)</a>
     <a href="https://analog.anguhashblog.com/" target="_blank" rel="noopener noreferrer">Analog without UI (soon)</a>
     <a href="" target="_blank" rel="noopener noreferrer">Analog with Spartan UI (soon)</a>
-  </div>
+  </div> -->
 </div>
