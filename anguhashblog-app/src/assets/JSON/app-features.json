@@ -968,7 +968,7 @@
       {
         "name": "Angular",
         "status": "done",
-        "issueLink": "https://github.com/AnguHashBlog/angular/pull/105"
+        "issueLink": "https://github.com/AnguHashBlog/angular/blob/463f4a19fb5e3671f845ef30d761f30f8eca8fd5/angular-app/src/app/partials/settings-dialog/settings-dialog.component.ts#L34"
       },
       {
         "name": "Angular Material",
@@ -977,8 +977,34 @@
       },
       {
         "name": "PrimeNG",
+        "status": "done",
+        "issueLink": "https://github.com/AnguHashBlog/angular-primeng/pull/70"
+      },
+      {
+        "name": "Analog",
         "status": "",
-        "issueLink": "https://github.com/AnguHashBlog/angular-primeng/issues/67"
+        "issueLink": "https://github.com/AnguHashBlog/analog/issues/new/choose"
+      }
+    ]
+  },
+  {
+    "name": "Custom theme switcher with dynamic icons",
+    "description": "",
+    "app": [
+      {
+        "name": "Angular",
+        "status": "done",
+        "issueLink": "https://github.com/AnguHashBlog/angular/pull/111"
+      },
+      {
+        "name": "Angular Material",
+        "status": "",
+        "issueLink": "https://github.com/AnguHashBlog/angular-material/issues/72"
+      },
+      {
+        "name": "PrimeNG",
+        "status": "",
+        "issueLink": "https://github.com/AnguHashBlog/angular-primeng/issues/69"
       },
       {
         "name": "Analog",
