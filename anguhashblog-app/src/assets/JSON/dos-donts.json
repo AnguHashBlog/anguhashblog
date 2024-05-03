@@ -12,6 +12,10 @@
       "description": "Open source maintainers are often experienced developers who not only write code and develop projects but also create documentation, develop live sites, handle deployment, track and document issues, conduct code reviews, and assist collaborators within the project's scope. There are cases where maintainers may not directly contribute code, but they still engage in various activities. It's important to verify before assuming their responsibilities. Typically, maintainers are heavily involved in code writing, and you can gain more insights by exploring the repository's analytics."
     },
     {
+      "title": "Always Start with 'Have you Considered ?'",
+      "description": "First of all, acknowledge that the maintainer has likely already considered the proposed solution. Begin with 'Have you considered' to respect their expertise and decision-making process. Then, explore why the solution hasn't been implemented without wasting time. It's possible that the solution isn't applicable to the project's structure or that the maintainer intentionally left it for a collaborator to implement. However, it's highly unlikely that the maintainer is unaware of the solution or lacks the ability to implement it. By framing the discussion in this way, you can facilitate productive dialogue and collaboration within the open-source community."
+    },
+    {
       "title": "Contribute by Automating Tasks",
       "description": "Consider contributing to the project by automating repetitive tasks that maintainers handle. Automation can help streamline the development process and free up maintainers' time for more critical tasks."
     },
@@ -47,6 +51,10 @@
     {
       "title": "Don't confuse Maintainers with Mentors",
       "description": "While maintainers are resources for guidance and support, avoid relying solely on them for every task or decision. Furthermore, maintainers are not your personal mentors and they are not here to: answer Google-able questions; explain basic programming concepts; or cover anything outside the scope of the open-source project. If you have knowledge gaps, you must address them. Take initiative in problem-solving, seek guidance from documentation and community resources, and collaborate with other contributors. Empowering yourself fosters personal growth and contributes to a more self-sustaining community"
+    },
+    {
+      "title": "Don't assume that maintainers don't know a solution you are proposing",
+      "description": "Avoid assuming that you are the first person to propose a solution. Project maintainers invest significant time and effort into exploring solutions for their projects. If a solution hasn't been implemented, refrain from assuming that the maintainer lacks awareness or competence. Instead, respectfully propose the solution while acknowledging the maintainer's expertise and decision-making process. Ask if they have already considered it, recognizing that they may have intentionally deferred implementation for collaboration or technical reasons. This approach fosters a culture of respect, collaboration, and effective communication within the open-source community"
     },
     {
       "title": "Don't Neglect Community Guidelines",

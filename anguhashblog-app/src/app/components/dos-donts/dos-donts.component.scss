@@ -15,6 +15,7 @@
       display: flex;
       align-items: center;
       gap: 0.4rem;
+
       mat-icon {
         background-color: green;
         border-radius: 0.3rem;
@@ -35,6 +36,7 @@
 
           mat-panel-title {
             h2 {
+              text-transform: capitalize;
               font-size: 1.2rem;;
               font-weight: 400;
               margin: 0;
