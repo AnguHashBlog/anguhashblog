@@ -998,13 +998,39 @@
       },
       {
         "name": "Angular Material",
-        "status": "",
-        "issueLink": "https://github.com/AnguHashBlog/angular-material/issues/72"
+        "status": "done",
+        "issueLink": "https://github.com/AnguHashBlog/angular-material/pull/73"
       },
       {
         "name": "PrimeNG",
         "status": "",
         "issueLink": "https://github.com/AnguHashBlog/angular-primeng/issues/69"
+      },
+      {
+        "name": "Analog",
+        "status": "",
+        "issueLink": "https://github.com/AnguHashBlog/analog/issues/new/choose"
+      }
+    ]
+  },
+  {
+    "name": "Angular update to v17.3.0 or v17.3.6",
+    "description": "",
+    "app": [
+      {
+        "name": "Angular",
+        "status": "done",
+        "issueLink": "https://github.com/AnguHashBlog/angular/pull/111/"
+      },
+      {
+        "name": "Angular Material",
+        "status": "done",
+        "issueLink": "https://github.com/AnguHashBlog/angular-material/pull/73"
+      },
+      {
+        "name": "PrimeNG",
+        "status": "done",
+        "issueLink": "https://github.com/AnguHashBlog/angular-primeng/pull/73"
       },
       {
         "name": "Analog",
