@@ -1,0 +1,26 @@
+[
+  {
+    "imageDark": "../../../assets/images/sites/angular-primeng-anguhashblog-dark.jpg",
+    "imageLight": "../../../assets/images/sites/angular-primeng-anguhashblog-light.jpg",
+    "frameworkVersion": "v17",
+    "uiLib": "primeng",
+    "uiLibDisplay": "PrimeNG UI",
+    "dynamicTheme": "yes",
+    "structure": "standalone",
+    "deployment": ["Netlify" , "Vercel"],
+    "url": "https://angularprimeng.anguhashblog.com",
+    "github": "https://github.com/AnguHashBlog/angular-primeng"
+  },
+  {
+    "imageDark": "../../../assets/images/sites/analog-anguhashblog-dark.jpg",
+    "imageLight": "../../../assets/images/sites/analog-anguhashblog-light.jpg",
+    "frameworkVersion": "v17",
+    "uiLib": "material",
+    "uiLibDisplay": "Angular Material",
+    "dynamicTheme": "yes",
+    "structure": "standalone",
+    "deployment": ["Netlify" , "Vercel"],
+    "url": "",
+    "github": ""
+  }
+]

@@ -1,5 +1,5 @@
 {
-  "name": "anguhashblog-app",
+  "name": "anguhashblog",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -8,7 +8,7 @@
     "build:prod": "ng build --configuration=production",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "serve:ssr:anguhashblog-app": "node dist/anguhashblog-app/server/server.mjs"
+    "serve:ssr:anguhashblog": "node dist/anguhashblog/server/server.mjs"
   },
   "private": true,
   "dependencies": {
