@@ -115,7 +115,7 @@ $dark-text-color: #333;
 
   mat-sidenav-container {
     mat-sidenav {
-      background-color: #191818;
+      background-color: #272626;
       box-shadow: 0 0.2rem 0.4rem 0.1rem #00000076;
 
       mat-nav-list {
@@ -134,6 +134,7 @@ $dark-text-color: #333;
     }
 
     mat-sidenav-content {
+      background-color: $semi-dark-bg-color;
       color: $light-text-color;
 
       h1,

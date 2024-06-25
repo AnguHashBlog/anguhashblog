@@ -1,10 +1,11 @@
 [
   {
+    "name": "Angular PrimeNG AnguHashBlog",
     "imageDark": "../../../assets/images/sites/angular-primeng-anguhashblog-dark.jpg",
     "imageLight": "../../../assets/images/sites/angular-primeng-anguhashblog-light.jpg",
-    "frameworkVersion": "v17",
+    "angularVersion": "v17",
     "uiLib": "primeng",
-    "uiLibDisplay": "PrimeNG UI",
+    "uiLibDisplay": "PrimeNG",
     "dynamicTheme": "yes",
     "structure": "standalone",
     "deployment": ["Netlify" , "Vercel"],
@@ -12,15 +13,17 @@
     "github": "https://github.com/AnguHashBlog/angular-primeng"
   },
   {
-    "imageDark": "../../../assets/images/sites/analog-anguhashblog-dark.jpg",
-    "imageLight": "../../../assets/images/sites/analog-anguhashblog-light.jpg",
-    "frameworkVersion": "v17",
+    "name": "Analog Material AnguHashBlog",
+    "imageDark": "../../../assets/images/sites/analog-material-anguhashblog.jpg",
+    "imageLight": "../../../assets/images/sites/analog-material-anguhashblog-light.jpg",
+    "analogVersion": "v1.5.0",
+    "angularVersion": "v18",
     "uiLib": "material",
     "uiLibDisplay": "Angular Material",
     "dynamicTheme": "yes",
     "structure": "standalone",
     "deployment": ["Netlify" , "Vercel"],
-    "url": "",
-    "github": ""
+    "url": "https://analogmaterial.anguhashblog.com/",
+    "github": "https://github.com/AnguHashBlog/analog-material"
   }
 ]

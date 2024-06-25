@@ -51,24 +51,21 @@
           align-items: center;
           padding: 1rem;
 
-          .framework-version,
-          .ui-lib {
+          .version-icons {
             display: flex;
-            align-items: flex-start;
+            align-items: center;
+            justify-content: center;
+            gap: 0.5rem;
 
             mat-icon {
               height: 1.5rem;
               width: 1.5rem;
-            }
 
-            p {
-              font-size: 0.9rem;
-              margin: 0 0.5rem 0 0.3rem;;
+              &.analog {
+                height: 1.7rem;
+                width: 1.7rem;
+              }
             }
-          }
-
-          .ui-lib {
-            flex-grow: 2;
           }
         }
       }

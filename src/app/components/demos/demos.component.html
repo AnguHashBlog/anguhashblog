@@ -6,32 +6,32 @@
       <a href="{{ site.url }}" target="_blank" rel="noopener noreferrer">
         <mat-card-header>
           @if (themeService.themeSignal() === 'dark') {
-          <img ngSrc="{{site.imageDark}}" alt="anguhashblog demo dark" height="57" width="100">
+          <img ngSrc="{{site.imageDark}}" alt="{{site.name}}" height="57" width="100">
           } @else {
-          <img ngSrc="{{site.imageLight}}" alt="anguhashblog demo light" height="57" width="100">
+          <img ngSrc="{{site.imageLight}}" alt="{{site.name}}" height="57" width="100">
           }
         </mat-card-header>
       </a>
       <mat-card-content>
         <div class="version-banner">
-          <div class="framework-version">
-            <mat-icon svgIcon="angular"></mat-icon>
-            <p>{{site.frameworkVersion}}</p>
-          </div>
-          <div class="ui-lib">
-            <mat-icon svgIcon="{{site.uiLib}}"></mat-icon>
-            <p>{{site.uiLibDisplay}}</p>
+          <div class="version-icons">
+            @if(site.analogVersion) {
+            <div class="analog-version">
+              <mat-icon class="analog" svgIcon="analog" matTooltip='{{site.analogVersion}}'
+                matTooltipPosition='below'></mat-icon>
+            </div>
+            }
+            <div class="angular-version">
+              <mat-icon svgIcon="angular" matTooltip='{{site.angularVersion}}' matTooltipPosition='below'></mat-icon>
+            </div>
+            <div class="ui-lib">
+              <mat-icon svgIcon="{{site.uiLib}}" matTooltip='{{site.uiLibDisplay}}' matTooltipPosition='below'></mat-icon>
+            </div>
           </div>
           <a class="link" href="{{site.github}}" target="_blank" rel="noopener noreferrer">
             <mat-icon svgIcon="github"></mat-icon>
           </a>
         </div>
-        <!-- <div class="site-info">
-            <h3>UI Library: {{site.uiLib}}</h3>
-            <h3>Dynamic Theme: {{site.dynamicTheme}}</h3>
-            <h3>Structure: {{site.structure}}</h3>
-            <h3>Deployment: {{site.deployment}}</h3>
-          </div> -->
       </mat-card-content>
     </mat-card>
     }

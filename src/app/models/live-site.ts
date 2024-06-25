@@ -1,7 +1,9 @@
 export interface LiveSite {
+  name: string;
   imageDark: string;
   imageLight: string;
-  frameworkVersion: string;
+  analogVersion?: string;
+  angularVersion: string;
   uiLib?: string;
   uiLibDisplay?: string;
   dynamicTheme: boolean;
