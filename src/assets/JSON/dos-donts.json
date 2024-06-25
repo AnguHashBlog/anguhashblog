@@ -29,10 +29,7 @@
     },
     {
       "title": "Help Identify and Resolve Duplicate Issues",
-      "description": "Participate in keeping the issue tracker organized by identifying and resolving duplicate issues. This contribution helps streamline the development process, making it easier for maintainers to focus on addressing genuine problems and feature requests.",
-      "link":"/issue-tracker",
-      "linkName": "Issue Tracker",
-      "linkDescription": " is a tool that I created for this project and I am thinking of ways to automate it."
+      "description": "Participate in keeping the issues organized by identifying and resolving duplicate issues. This contribution helps streamline the development process, making it easier for maintainers to focus on addressing genuine problems and feature requests."
     },
     {
       "title": "Contribute Quality Pull Requests",

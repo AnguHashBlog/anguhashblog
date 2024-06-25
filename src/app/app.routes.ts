@@ -15,7 +15,7 @@ export const routes: Routes = [
   { path: 'overview', component: OverviewComponent },
   { path: 'contributing', component: ContributingComponent },
   { path: 'dos-donts', component: DosDontsComponent },
-  { path: 'issue-tracker', component: IssueTrackerComponent },
+  // { path: 'issue-tracker', component: IssueTrackerComponent },
   { path: 'code-of-conduct', component: CodeOfConductComponent },
   { path: 'use', component: UseComponent },
   { path: 'contact', component: ContactComponent },
