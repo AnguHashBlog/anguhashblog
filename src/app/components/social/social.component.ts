@@ -22,12 +22,12 @@ export class SocialComponent {
   ];
 
   constructor (private iconRegistry: MatIconRegistry, private sanitizer: DomSanitizer)
-  { iconRegistry.addSvgIcon('github', this.sanitizer.bypassSecurityTrustResourceUrl('./assets/icons/github.svg'));
-  this.iconRegistry.addSvgIcon('linkedin', this.sanitizer.bypassSecurityTrustResourceUrl('./assets/icons/linkedin.svg'));
-  this.iconRegistry.addSvgIcon('hashnode', this.sanitizer.bypassSecurityTrustResourceUrl('./assets/icons/hashnode.svg'));
-  this.iconRegistry.addSvgIcon('youtube', this.sanitizer.bypassSecurityTrustResourceUrl('./assets/icons/youtube.svg'));
-  this.iconRegistry.addSvgIcon('discord', this.sanitizer.bypassSecurityTrustResourceUrl('./assets/icons/discord.svg'));
-  this.iconRegistry.addSvgIcon('twitter', this.sanitizer.bypassSecurityTrustResourceUrl('./assets/icons/twitter-new.svg'));
-  this.iconRegistry.addSvgIcon('instagram', this.sanitizer.bypassSecurityTrustResourceUrl('./assets/icons/instagram.svg'));
+  { iconRegistry.addSvgIcon('github', this.sanitizer.bypassSecurityTrustResourceUrl('/icons/github.svg'));
+  this.iconRegistry.addSvgIcon('linkedin', this.sanitizer.bypassSecurityTrustResourceUrl('/icons/linkedin.svg'));
+  this.iconRegistry.addSvgIcon('hashnode', this.sanitizer.bypassSecurityTrustResourceUrl('/icons/hashnode.svg'));
+  this.iconRegistry.addSvgIcon('youtube', this.sanitizer.bypassSecurityTrustResourceUrl('/icons/youtube.svg'));
+  this.iconRegistry.addSvgIcon('discord', this.sanitizer.bypassSecurityTrustResourceUrl('/icons/discord.svg'));
+  this.iconRegistry.addSvgIcon('twitter', this.sanitizer.bypassSecurityTrustResourceUrl('/icons/twitter-new.svg'));
+  this.iconRegistry.addSvgIcon('instagram', this.sanitizer.bypassSecurityTrustResourceUrl('/icons/instagram.svg'));
   }
 }

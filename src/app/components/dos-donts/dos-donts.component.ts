@@ -19,7 +19,7 @@ export class DosDontsComponent implements OnInit {
   http = inject(HttpClient);
 
   ngOnInit(): void {
-    this.http.get<{ dos: PanelItem[], donts: PanelItem[] }>('../../assets/JSON/dos-donts.json').subscribe((data) => {
+    this.http.get<{ dos: PanelItem[], donts: PanelItem[] }>('/JSON/dos-donts.json').subscribe((data) => {
       this.dos = data.dos;
       this.donts = data.donts;
     });

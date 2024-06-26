@@ -23,10 +23,10 @@ export class HomeComponent implements OnInit {
 
   ngOnInit() :void {
     this.scroller.scrollToPosition([0, 0]);
-    this.http.get<Goal[]>("../../assets/JSON/features.json").subscribe((data) => {
+    this.http.get<Goal[]>("/JSON/features.json").subscribe((data) => {
       this.features = data;
     });
-    this.http.get<Feature[]>("../../assets/JSON/tech.json").subscribe((data) => {
+    this.http.get<Feature[]>("/JSON/tech.json").subscribe((data) => {
       this.tech = data;
     });
   }

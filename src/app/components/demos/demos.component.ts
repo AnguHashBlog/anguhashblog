@@ -28,35 +28,35 @@ export class DemosComponent implements OnInit {
 	) {
 		this.iconRegistry.addSvgIcon(
 			"github",
-			this.sanitizer.bypassSecurityTrustResourceUrl("./assets/icons/github.svg")
+			this.sanitizer.bypassSecurityTrustResourceUrl("/icons/github.svg")
 		);
 		this.iconRegistry.addSvgIcon(
 			"angular",
 			this.sanitizer.bypassSecurityTrustResourceUrl(
-				"./assets/icons/angular-new.svg"
+				"/icons/angular-new.svg"
 			)
 		);
 		this.iconRegistry.addSvgIcon(
 			"analog",
-			this.sanitizer.bypassSecurityTrustResourceUrl("./assets/icons/analog.svg")
+			this.sanitizer.bypassSecurityTrustResourceUrl("/icons/analog.svg")
 		);
 		this.iconRegistry.addSvgIcon(
 			"material",
 			this.sanitizer.bypassSecurityTrustResourceUrl(
-				"./assets/icons/material.svg"
+				"/icons/material.svg"
 			)
 		);
 		this.iconRegistry.addSvgIcon(
 			"primeng",
 			this.sanitizer.bypassSecurityTrustResourceUrl(
-				"./assets/icons/primeng.svg"
+				"/icons/primeng.svg"
 			)
 		);
 	}
 
 	ngOnInit(): void {
 		this.http
-			.get<LiveSite[]>("../../assets/JSON/live-sites.json")
+			.get<LiveSite[]>(".././JSON/live-sites.json")
 			.subscribe((data) => {
 				this.liveSites = data;
 			});

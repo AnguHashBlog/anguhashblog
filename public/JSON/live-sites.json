@@ -1,8 +1,8 @@
 [
   {
     "name": "Angular PrimeNG AnguHashBlog",
-    "imageDark": "../../../assets/images/sites/angular-primeng-anguhashblog-dark.jpg",
-    "imageLight": "../../../assets/images/sites/angular-primeng-anguhashblog-light.jpg",
+    "imageDark": "/images/sites/angular-primeng-anguhashblog-dark.jpg",
+    "imageLight": "/images/sites/angular-primeng-anguhashblog-light.jpg",
     "angularVersion": "v17",
     "uiLib": "primeng",
     "uiLibDisplay": "PrimeNG",
@@ -14,8 +14,8 @@
   },
   {
     "name": "Analog Material AnguHashBlog",
-    "imageDark": "../../../assets/images/sites/analog-material-anguhashblog.jpg",
-    "imageLight": "../../../assets/images/sites/analog-material-anguhashblog-light.jpg",
+    "imageDark": "/images/sites/analog-material-anguhashblog.jpg",
+    "imageLight": "/images/sites/analog-material-anguhashblog-light.jpg",
     "analogVersion": "v1.5.0",
     "angularVersion": "v18",
     "uiLib": "material",

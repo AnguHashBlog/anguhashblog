@@ -43,7 +43,7 @@ export class IssueTrackerComponent implements OnInit {
 	ngOnInit(): void {
     this.scroller.scrollToPosition([0, 0]);
 		this.http
-			.get<AppFeature[]>("./assets/JSON/app-features.json")
+			.get<AppFeature[]>("/JSON/app-features.json")
 			.subscribe((data) => {
 				this.appFeatures = data;
 				this.filteredAppFeatures = data;
