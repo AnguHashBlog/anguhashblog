@@ -1,9 +1,12 @@
 {
   "routes": [
+    "/code-of-conduct",
     "/contact",
-    "/contribute",
+    "/contributing",
     "/demos",
+    "/dos-donts",
     "/home",
+    "/overview",
     "/use"
   ]
 }
