@@ -28,18 +28,18 @@
 @use '@angular/material-experimental' as matx;
 
 // Light Theme
-$light-theme: matx.define-theme((color: (theme-type: light,
-        primary: matx.$m3-azure-palette,
-        tertiary: matx.$m3-blue-palette,
+$light-theme: mat.define-theme((color: (theme-type: light,
+        primary: mat.$azure-palette,
+        tertiary: mat.$blue-palette,
       )));
 // Dark Theme
-$dark-theme: matx.define-theme((color: (theme-type: dark,
-        primary: matx.$m3-magenta-palette,
-        tertiary: matx.$m3-violet-palette,
+$dark-theme: mat.define-theme((color: (theme-type: dark,
+        primary: mat.$magenta-palette,
+        tertiary: mat.$violet-palette,
       )));
 
 @include mat.core();
-@include matx.color-variants-back-compat($light-theme);
+@include mat.color-variants-backwards-compatibility($light-theme);
 
 :root {
   @include mat.all-component-themes($light-theme);
@@ -65,7 +65,7 @@ $dark-text-color: #333;
 
 // Dark mode
 .dark {
-  @include matx.color-variants-back-compat($dark-theme);
+  @include mat.color-variants-backwards-compatibility($dark-theme);
   @include mat.all-component-colors($dark-theme);
 
   background-color: $semi-dark-bg-color;
