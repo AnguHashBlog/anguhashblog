@@ -129,8 +129,7 @@
             href="https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo"
             target="_blank" rel="noopener noreferrer">Fork</a> the AnguHashBlog repo of your choice.</li>
         <li>In your forked repository, make your changes in a new git branch:
-          <pre><code>git checkout -b my-fix-branch develop</code></pre>
-          <p>The default branch is develop</p>
+          <pre><code>git checkout -b my-fix-branch main</code></pre>
         </li>
         <li>Create your patch, including appropriate test cases.</li>
         <li>Follow the Coding Standards</li>
@@ -143,7 +142,7 @@
         <li>Push your branch to GitHub:
           <pre><code>git push origin my-fix-branch</code></pre>
         </li>
-        <li>In GitHub, send a pull request to <span>AnguHashBlog/angular:develop</span></li>
+        <li>In GitHub, send a pull request to <span>AnguHashBlog/angular:main</span></li>
       </ol>
       <hr />
       <p>DO NOT erase the provided PR template! It is intended for you to use, not to replace it with random text.</p>
@@ -166,14 +165,14 @@
         <li>Delete the remote branch on GitHub either through the GitHub web UI or your local shell as follows:
           <pre><code>git push origin --delete my-fix-branch</code></pre>
         </li>
-        <li>Check out the develop branch:
-          <pre><code>git checkout develop -f</code></pre>
+        <li>Check out the main branch:
+          <pre><code>git checkout main -f</code></pre>
         </li>
         <li>Delete the local branch:
           <pre><code>git branch -D my-fix-branch</code></pre>
         </li>
-        <li>Update your local develop with the latest upstream version:
-          <pre><code>git pull --ff upstream develop</code></pre>
+        <li>Update your local main with the latest upstream version:
+          <pre><code>git pull --ff upstream main</code></pre>
         </li>
       </ol>
     </mat-expansion-panel>
