@@ -1,12 +1,12 @@
 import {
 	Component,
 	ChangeDetectorRef,
-	OnInit,
 	OnDestroy,
 	inject,
 	PLATFORM_ID,
 	Inject,
 	HostListener,
+  AfterViewInit,
 } from "@angular/core";
 import { MediaMatcher } from "@angular/cdk/layout";
 import { RouterOutlet, RouterLink, RouterLinkActive } from "@angular/router";
@@ -44,7 +44,7 @@ import { isPlatformBrowser, ViewportScroller } from "@angular/common";
 	templateUrl: "./app.component.html",
 	styleUrl: "./app.component.scss",
 })
-export class AppComponent implements OnInit, OnDestroy {
+export class AppComponent implements AfterViewInit, OnDestroy {
 	title = "AnguHashBlog";
 	snavIsOpen = true;
 	mobileQuery: MediaQueryList;
@@ -77,7 +77,7 @@ export class AppComponent implements OnInit, OnDestroy {
 		this.mobileQuery.addListener(this._mobileQueryListener);
 	}
 
-	ngOnInit(): void {
+	ngAfterViewInit(): void {
 		if (isPlatformBrowser(this.platformId)) {
 			this.switchIcons = document.querySelector(".mdc-switch__icons");
 			this.switchIcons.innerHTML = `
